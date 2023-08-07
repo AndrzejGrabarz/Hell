@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { useState, useRef } from 'react';
 import Navbar from '@/components/Navbar';
 import ImageBox from '@/components/ImageBox';
 
@@ -9,6 +10,7 @@ export default function Home() {
       <div className="flex items-center justify-around font-mono w-full">
         <div className="flex justify-items-end mt-4">
           <Image
+            id="logo"
             src="/logo.png"
             alt="Vercel Logo"
             className="dark:invert"
@@ -31,19 +33,17 @@ export default function Home() {
         />
       </div>
       <div className="flex justify-center flex-row mt-12 flex-wrap">
-        {Array(6).fill().map((item, index) => (
-          <ImageBox key={index} photo="Lampa R1" />
-        ))}
-        {Array(6).fill().map((item, index) => (
-          <ImageBox key={index} photo="Lampa R2" />
-        ))}
-        {Array(6).fill().map((item, index) => (
-          <ImageBox key={index} photo="Lampa R3" />
-        ))}
-        {Array(6).fill().map((item, index) => (
-          <ImageBox key={index} photo="Lampa R1.1" />
-        ))}
+        <ImageBox lampOn="Lampa R2" lampOff="Lampa R2.1" />
+        <ImageBox lampOn="Lampa R3" lampOff="Lampa R3.1" />
       </div>
     </main>
   );
 }
+
+/*
+   {/* {Array(6).fill().map((item, index) => (
+          <ImageBox key={index} photo="Lampa R2" />
+        ))}
+        {Array(6).fill().map((item, index) => (
+          <ImageBox key={index} photo="Lampa R3" />
+        ))} */
