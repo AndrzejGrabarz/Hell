@@ -3,24 +3,33 @@ import React from 'react';
 import Image from 'next/image';
 import { useRef } from 'react';
 import { useState } from 'react';
+import Link from 'next/link';
+import WybierzLampe from '@/utils/Lampy';
 
-function ImageBox({ lampOn, lampOff }) {
-  // const imageRef = useRef(null);
+function ImageBox({ lampOn, lampOff, lampa }) {
   const [isLampOn, setIsLampOn] = useState(false);
 
+  const selectedLamp = WybierzLampe.find((e) => e.name === lampa);
   return (
     <div
-      className="flex px-12 py-8"
+      className="flex px-12 py-8 cursor-pointer mx-8 my-4"
       onMouseOver={() => setIsLampOn(true)}
       onMouseOut={() => setIsLampOn(false)}
     >
-      <Image
-        className="rounded"
-        src={`/${isLampOn ? lampOff : lampOn}.jpg`}
-        alt=""
-        width={300}
-        height={300}
-      />
+      <Link href={{
+        pathname: `/lampy/${lampa}`,
+        query: { data: (JSON.stringify(selectedLamp)) },
+      }}
+      >
+        <Image
+          className="rounded shadow-2xl"
+          src={`/${isLampOn ? lampOff : lampOn}.jpg`}
+          alt=""
+          width={300}
+          height={300}
+        />
+      </Link>
+
       {/* <Image
         onMouseOver={() => {
           imageRef.current.src = `/${lampOff}.jpg`;
