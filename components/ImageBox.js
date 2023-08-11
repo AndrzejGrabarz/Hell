@@ -26,7 +26,7 @@ function ImageBox({ lampOn, lampOff, lampa }) {
           src={`/${isLampOn ? lampOff : lampOn}.jpg`}
           alt=""
           width={300}
-          height={300}
+          height={400}
         />
       </Link>
 
