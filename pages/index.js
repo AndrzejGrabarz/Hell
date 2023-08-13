@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { useState, useRef } from 'react';
 import Navbar from '@/components/Navbar';
 import ImageBox from '@/components/ImageBox';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
@@ -9,12 +10,12 @@ export default function Home() {
       <div className="flex items-center justify-around font-mono w-full">
         <div className="flex justify-items-end mt-4">
           <Image
-            id="logo"
+            id='logo'
             src="/logo.png"
             alt="Vercel Logo"
             className="dark:invert"
             width={200}
-            height={48}
+            height={200}
             priority
           />
         </div>
@@ -37,6 +38,7 @@ export default function Home() {
         <ImageBox lampOn="LotosOff" lampOff="LotosOn" lampa="Klucz" />
         <ImageBox lampOn="PasekOff" lampOff="PasekOn" lampa="Pasek" />
       </div>
+      <Footer />
     </main>
   );
 }

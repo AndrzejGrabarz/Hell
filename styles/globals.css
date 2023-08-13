@@ -35,3 +35,7 @@ img:not(#logo) {
   display: none;
 }
 
+.custom-underline-overline {
+  text-decoration: underline overline;
+  text-underline-offset: 20px;
+}

@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 import Navbar from '@/components/Navbar';
 import Modal from '@/components/Modal';
+import Footer from '@/components/Footer';
 
 
 function Lampa() {
@@ -18,7 +19,7 @@ function Lampa() {
   }
   return (
     <div className="flex min-h-screen w-full flex-col items-center">
-      <Modal />
+      <Modal data = {data}/>
       <div className="flex items-center justify-around font-mono w-full">
         <div className="flex justify-items-end mt-4">
           <Image
@@ -27,7 +28,7 @@ function Lampa() {
             alt="Vercel Logo"
             className="dark:invert"
             width={200}
-            height={48}
+            height={200}
             priority
           />
         </div>
@@ -63,6 +64,7 @@ function Lampa() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
