@@ -1,17 +1,13 @@
 import { useRouter } from 'next/router';
-import { useState } from 'react';
 import Image from 'next/image';
 import Navbar from '@/components/Navbar';
 import Modal from '@/components/Modal';
 import Footer from '@/components/Footer';
 
-
 function Lampa() {
   const router = useRouter();
   const { lampname } = router.query;
   const data = router.query.data ? (JSON.parse(router.query.data)) : null;
-
-  const [image, setImage] = useState(0);
 
   function show() {
     const modal = document.getElementById('modal');
@@ -19,7 +15,7 @@ function Lampa() {
   }
   return (
     <div className="flex min-h-screen w-full flex-col items-center">
-      <Modal data = {data}/>
+      <Modal data={data} />
       <div className="flex items-center justify-around font-mono w-full">
         <div className="flex justify-items-end mt-4">
           <Image
@@ -38,7 +34,7 @@ function Lampa() {
 
       <div className="flex items-center min-h-screen  font-mono w-full ">
         <div className=" flex flex-col min-h-screen w-[1000px] p-8 items-center">
-          <button onClick={show} className="cursor-pointer">
+          <button type="submit" onClick={show} className="cursor-pointer">
             <Image
               id="logo"
               src={`/${data.lampOffSrc}.jpg`}

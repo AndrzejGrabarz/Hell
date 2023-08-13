@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import { useState, useRef } from 'react';
 import Navbar from '@/components/Navbar';
 import ImageBox from '@/components/ImageBox';
 import Footer from '@/components/Footer';
@@ -10,7 +9,7 @@ export default function Home() {
       <div className="flex items-center justify-around font-mono w-full">
         <div className="flex justify-items-end mt-4">
           <Image
-            id='logo'
+            id="logo"
             src="/logo.png"
             alt="Vercel Logo"
             className="dark:invert"

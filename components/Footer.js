@@ -1,4 +1,3 @@
-import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -8,11 +7,11 @@ function Footer() {
       <div className="w-full mx-auto py-4 px-12">
         <div className="sm:flex sm:items-center justify-between">
           <div className="flex">
+            <Link href="#" className="flex">
+              <Image id="logo" src="/facebook.png" width={35} height={35} className="h-8 mr-3" alt="Flowbite Logo" />
+            </Link>
             <a href="#" className="flex">
-                <Image id='logo' src="/facebook.png" width={35} height={35} className="h-8 mr-3" alt="Flowbite Logo" />
-            </a>
-            <a href="#" className="flex">
-                <Image id='logo' src="/instagram.png" width={35} height={35} className="h-8 mr-3 " alt="Flowbite Logo" />
+              <Image id="logo" src="/instagram.png" width={35} height={35} className="h-8 mr-3 " alt="Flowbite Logo" />
             </a>
           </div>
           <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
