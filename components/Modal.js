@@ -1,9 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Image from 'next/image';
-import Navbar from '@/components/Navbar';
 
 function Modal({ data }) {
-  const array = ['/KluczOff.jpg', '/KluczOn.jpg', '/LotosOn.jpg', '/LotosOff.jpg'];
   const [imageSrc, setImageSrc] = useState(0);
   function show() {
     const modal = document.getElementById('modal');
@@ -28,9 +26,7 @@ function Modal({ data }) {
         <button onClick={show}>Tutaj</button>
         <div className="">
           <div className="">
-            {/* <div className="numbertext">1 / 4</div> */}
             <Image id="myImage" src={data.morePhotos[imageSrc]} width={300} height={300} style={{ width: '100%', height: '100%' }} />
-            {/* <Image id="myImage" src={data.morephotos[imageSrc]} width={300} height={300} style={{ width: '100%', height: '100%' }} /> */}
           </div>
         </div>
         {/* <!-- Next/previous controls --> */}

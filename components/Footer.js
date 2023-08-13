@@ -25,7 +25,7 @@ function Footer() {
               <Link href="/Kontakt" className="mr-4 hover:underline md:mr-6 ">FAQ</Link>
             </li>
             <li>
-              <aLink href="/Kontakt" className="hover:underline">Contact</aLink>
+              <Link href="/Kontakt" className="hover:underline">Contact</Link>
             </li>
           </ul>
         </div>

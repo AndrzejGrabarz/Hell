@@ -42,7 +42,7 @@ export default function Ofirmie() {
           <div className=" flex text-center flex-col w-[600px] p-8">
             <div className="text-3xl mb-8">Menedżerka</div>
             <div className="text-xl">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore deserunt esse sequi atque accusantium explicabo repudiandae tempora rerum, quibusdam impedit recusandae quidem optio corrupti sint voluptatibus? Delectus aperiam reprehenderit dignissimos, esse cupiditate iure non exercitationem odit unde alias, velit cum omnis, dolore nesciunt pariatur ipsa quibusdam sapiente! Omnis dolor praesentium consequatur vel similique sit deleniti enim quaerat placeat, nostrum qui, est fuga excepturi in, necessitatibus unde veniam! Asperiores quisquam ea maxime optio deleniti temporibus tenetur cum nobis quibusdam nemo voluptatibus modi, impedit similique ut tempore repellendus. Ipsam autem quod, laborum quaerat rem ut, eos quae labore assumenda quo necessitatibus! Nihil.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore deserunt esse sequi atque accusantium explicabo repudiandae tempora rerum, quibusdam impedit recusandae quidem optio corrupti sint voluptatibus? Delectus aperiam reprehenderit dignissimos, esse cupiditate iure non exercitationem odit unde alias, velit cum omnis, dolore nesciunt pariatur ipsa quibusdam sapiente! Omnis dolor praesentium consequatur vel similique sit deleniti enim quaerat placeat, nostrum qui, est fuga excepturi in, necessitatibus unde veniam! Asperiores quisquam ea maxime optio deleniti temporibus tenetur cum nobis quibusdam nemo voluptatibus modi, impedit similique ut tempore repellendus. Ipsam autem quod, laborum quaerat rem ut, eos quae labore assumenda quo necessitatibus! Nihil.
             </div>
           </div>
           <Image
@@ -67,18 +67,18 @@ export default function Ofirmie() {
             className="rounded"
             priority
           />
-          <div className=" flex text-center flex-col w-full p-8">
+          <div className=" flex text-center flex-col justify-center w-full p-8">
             <div className="text-3xl mb-8">Firma</div>
             <div className="text-xl">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore deserunt esse sequi atque accusantium explicabo repudiandae tempora rerum, quibusdam impedit recusandae quidem optio corrupti sint voluptatibus? Delectus aperiam reprehenderit dignissimos, esse cupiditate iure non exercitationem odit unde alias, velit cum omnis, dolore nesciunt pariatur ipsa quibusdam sapiente! Omnis dolor praesentium consequatur vel similique sit deleniti enim quaerat placeat, nostrum qui, est fuga excepturi in, necessitatibus unde veniam! Asperiores quisquam ea maxime optio deleniti temporibus tenetur cum nobis quibusdam nemo voluptatibus modi, impedit similique ut tempore repellendus. Ipsam autem quod, laborum quaerat rem ut, eos quae labore assumenda quo necessitatibus! Nihil.
             </div>
           </div>
         </div>
-        <div className="flex flex-row mt-8">
-          <div className=" flex text-center flex-col w-full p-8">
+        <div className="flex flex-row  mt-8">
+          <div className=" flex text-center flex-col justify-center w-full p-8">
             <div className="text-3xl mb-8">Produkcja Lamp</div>
             <div className="text-xl">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore deserunt esse sequi atque accusantium explicabo repudiandae tempora rerum, quibusdam impedit recusandae quidem optio corrupti sint voluptatibus? Delectus aperiam reprehenderit dignissimos, esse cupiditate iure non exercitationem odit unde alias, velit cum omnis, dolore nesciunt pariatur ipsa quibusdam sapiente! Omnis dolor praesentium consequatur vel similique sit deleniti enim quaerat placeat, nostrum qui, est fuga excepturi in, necessitatibus unde veniam! Asperiores quisquam ea maxime optio deleniti temporibus tenetur cum nobis quibusdam nemo voluptatibus modi, impedit similique ut tempore repellendus. Ipsam autem quod, laborum quaerat rem ut, eos quae labore assumenda quo necessitatibus! Nihil.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore deserunt esse sequi atque accusantium explicabo repudiandae tempora rerum, quibusdam impedit recusandae quidem optio corrupti sint voluptatibus? Delectus aperiam reprehenderit dignissimos, esse cupiditate iure non exercitationem odit unde alias, velit cum omnis, dolore nesciunt pariatur ipsa quibusdam sapiente! Omnis dolor praesentium consequatur vel similique sit deleniti enim quaerat placeat, nostrum qui, est fuga excepturi in, necessitatibus unde veniam! Asperiores quisquam ea maxime optio deleniti temporibus tenetur cum nobis quibusdam nemo voluptatibus modi, impedit similique ut tempore repellendus. Ipsam autem quod, laborum quaerat rem ut, eos quae labore assumenda quo necessitatibus! Nihil.
             </div>
           </div>
           <Image
