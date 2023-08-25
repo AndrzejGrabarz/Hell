@@ -12,7 +12,17 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+
+      fontFamily: {
+        test: ['Caveat'],
+        RedHatItalic: ['Red+Hat+Text'],
+        RedHatItalic2: ['RedHatTextVariableFont'],
+      },
+
+      skew: {
+        40: '40deg',
+      },
     },
   },
   plugins: [],
-}
+};
