@@ -22,6 +22,18 @@ export default function Home() {
         <ImageBox lampOn="LotosOff" lampOff="LotosOn" lampa="Lotos" />
         <ImageBox lampOn="PasekOff" lampOff="PasekOn" lampa="Pasek" />
       </div>
+      <div className="flex text-4xl mt-8 font-RedHatItalic  italic">Lampy</div>
+      <div className="flex justify-center flex-row mt-12 flex-wrap">
+        <ImageBox lampOn="KluczOff" lampOff="KluczOn" lampa="Klucz" />
+        <ImageBox lampOn="LotosOff" lampOff="LotosOn" lampa="Lotos" />
+        <ImageBox lampOn="PasekOff" lampOff="PasekOn" lampa="Pasek" />
+      </div>
+      <div className="flex text-4xl mt-8 font-RedHatItalic  italic">Lampy</div>
+      <div className="flex justify-center flex-row mt-12 flex-wrap">
+        <ImageBox lampOn="KluczOff" lampOff="KluczOn" lampa="Klucz" />
+        <ImageBox lampOn="LotosOff" lampOff="LotosOn" lampa="Lotos" />
+        <ImageBox lampOn="PasekOff" lampOff="PasekOn" lampa="Pasek" />
+      </div>
       <Footer />
     </main>
   );
