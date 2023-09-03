@@ -33,10 +33,10 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-img:not(#logo) {
+/* img:not(#logo) {
   width: 300px;
   height: 400px;
-}
+} */
 
 .show {
   display: none;

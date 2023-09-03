@@ -16,7 +16,7 @@ function Navbar() {
           priority
         />
       </div>
-      <ul className="flex flex-col sm:flex-row sm:justify-center text-xl sm:text-4xl text-center w-full font-test">
+      <ul className="flex flex-col sm:flex-row sm:justify-center text-2xl sm:text-4xl text-center w-full font-test">
             <li>
               <Link href="/" className="block py-2 px-8  text-gray-900 rounded  hover:scale-110  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white" aria-current="page">Stron Główna</Link>
             </li>

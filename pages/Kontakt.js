@@ -5,9 +5,9 @@ export default function Kontakt() {
   return (
     <main className="flex min-h-screen w-full flex-col items-center ">
       <Navbar />
-      <div className=" flex justify-center mt-20 w-full">
-        <div className="flex mx-12">
-          <form className="flex flex-col bg-gradient-to-b from-[#d6dbdc] to-[#ffffff] shadow-md rounded px-8 pt-6 pb-8 h-full " action="/send-data-here" method="post">
+      <div className=" flex flex-col justify-center mt-20 w-full">
+        <div className="flex flex-col">
+          <form className="flex flex-col bg-gradient-to-b from-[#d6dbdc] to-[#ffffff] shadow-md rounded px-8 pt-6 pb-8 h-full text-sm sm:text-md m-8" action="/send-data-here" method="post">
             <label className="mb-4" htmlFor="first">
               <input className=" shadow appearance-none border rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" id="first" name="first" placeholder="Your Name" required />
             </label>
@@ -23,52 +23,63 @@ export default function Kontakt() {
             <label>
               <textarea className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline leading-6" name="postContent" placeholder="Message" rows={4} cols={50} />
             </label>
-            <button className="text-blue-500 text-xl hover:text-blue-700 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">Send Message &ndash;&gt;</button>
+            <button className="text-blue-500 text-lg sm:text-xl hover:text-blue-700 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">Send Message &ndash;&gt;</button>
           </form>
         </div>
-        <div className=" flex text-center flex-col w-[530px] p-8">
-          <div className="text-3xl mb-8 font-RedHatItalic font-medium">Dane Kontaktowe</div>
+        <div className="m-8">
+          <div className="text-2xl sm:text-3xl mb-8 font-RedHatItalic font-medium">Dane Kontaktowe</div>
           <div className="text-xl mb-4 font-RedHatItalic font-light">
             Email:
-            <span className="text-xl font-RedHatItalic font-light"> BielIBlask@gmail.com</span>
+            <span className="text-lg sm:text-xl font-RedHatItalic font-light"> BielIBlask@gmail.com</span>
           </div>
-          <div className="text-xl mb-8 font-RedHatItalic font-light">
+          <div className="text-lg sm:text-xl mb-8 font-RedHatItalic font-light">
             Email:
-            <span className="text-xl font-RedHatItalic font-light"> Prywatny@gmail.com</span>
+            <span className="text-lg sm:text-xl font-RedHatItalic font-light"> Prywatny@gmail.com</span>
           </div>
-          <div className="text-xl mb-8 font-RedHatItalic font-light">
+          <div className="text-lg sm:text-xl mb-8 font-RedHatItalic font-light">
             Telefon:
-            <span className="text-xl font-RedHatItalic font-light">  +48 123 123 123</span>
+            <span className="text-lg sm:text-xl font-RedHatItalic font-light">  +48 123 123 123</span>
           </div>
-          <div className="text-xl font-RedHatItalic font-light">
+          <div className="text-lg sm:text-xl font-RedHatItalic font-light">
             Szukasz czegoś innego? Masz własny pomysł na kształt lampy? Nie bój się napisać do nas jesteśmy mili ludzie 😉 Pomożemy, doradzimy. Odpowiedź otrzymasz odrazu albo w ciągu 2 nastepnych dni w razie czego zawsze może dzwonić od 8:00 do 15:00. Lampy same się nie zrobią.
           </div>
         </div>
       </div>
       <div className="flex justify-center text-4xl w-full py-4 mt-20 mb-8 custom-underline-overline font-RedHatItalic font-medium italic">
-        Najczęście zadawane pytania
+        FAQ
       </div>
-      <div className="flex flex-col my-8 mx-20 text-xl">
-        <div className="mb-6">
-          <div className="text-2xl underline underline-offset-8 py-4 font-RedHatItalic italic" id="Pytanie">Czy możecie stworzyć lampę na zamówienie z moim własnym projektem lub pomysłem?</div>
-          <div id="Odpowiedź" className="font-RedHatItalic font-light">Tak, jesteśmy specjalistami w tworzeniu customowych lamp na podstawie Twojego pomysłu lub projektu. Skontaktuj się z nami, aby omówić szczegóły!</div>
+      <div className="flex flex-col my-8 mx-12 text-xl">
+
+        <div className="mb-16">
+          <div className="text-xl sm:text-2xl underline underline-offset-8 py-4 font-RedHatItalic italic" id="Pytanie">Czy możecie stworzyć lampę na zamówienie z moim własnym projektem lub pomysłem?</div>
+          <div id="Odpowiedź" className="font-RedHatItalic font-light text-[16px] sm:text-md">Tak, jesteśmy specjalistami w tworzeniu customowych lamp na podstawie Twojego pomysłu lub projektu. Skontaktuj się z nami, aby omówić szczegóły!</div>
+
         </div>
-        <div className="mb-6">
-          <div className="text-2xl underline underline-offset-8 py-4 font-RedHatItalic italic" id="Pytanie">Jakie materiały są dostępne do stworzenia customowej lampy?</div>
-          <div id="Odpowiedź" className="font-RedHatItalic font-light">Mamy szeroki wybór materiałów, takich jak drewno, metal, szkło, ceramika i inne. Możemy dostosować lampę do Twoich preferencji pod względem materiałów i stylu.</div>
+
+        <div className="mb-16">
+          <div className="text-xl sm:text-2xl underline underline-offset-8 py-4 font-RedHatItalic italic" id="Pytanie">Jakie materiały są dostępne do stworzenia customowej lampy?</div>
+          <div id="Odpowiedź" className="font-RedHatItalic font-light text-[16px] sm:text-md">Mamy szeroki wybór materiałów, takich jak drewno, metal, szkło, ceramika i inne. Możemy dostosować lampę do Twoich preferencji pod względem materiałów i stylu.</div>
+
         </div>
-        <div className="mb-6">
-          <div className="text-2xl underline underline-offset-8 py-4 font-RedHatItalic italic" id="Pytanie">Czy mogę wybrać kształt, rozmiar i kolor lampy na zamówienie?</div>
-          <div id="Odpowiedź" className="font-RedHatItalic font-light">Oczywiście! Jesteśmy gotowi dostosować kształt, rozmiar, kolor i inne detale, aby stworzyć lampę idealnie pasującą do Twojego wnętrza.</div>
+
+        <div className="mb-16">
+          <div className="text-xl sm:text-2xl underline underline-offset-8 py-4 font-RedHatItalic italic" id="Pytanie">Czy mogę wybrać kształt, rozmiar i kolor lampy na zamówienie?</div>
+          <div id="Odpowiedź" className="font-RedHatItalic font-light text-[16px] sm:text-md">Oczywiście! Jesteśmy gotowi dostosować kształt, rozmiar, kolor i inne detale, aby stworzyć lampę idealnie pasującą do Twojego wnętrza.</div>
+
         </div>
-        <div className="mb-6">
-          <div className="text-2xl underline underline-offset-8 py-4 font-RedHatItalic italic" id="Pytanie">Ile czasu zajmuje stworzenie customowej lampy?</div>
-          <div id="Odpowiedź" className="font-RedHatItalic font-light">Czas produkcji zależy od skomplikowania projektu i obciążenia pracą. Zazwyczaj informujemy o szacunkowym czasie realizacji przy składaniu zamówienia.</div>
+
+        <div className="mb-16">
+          <div className="text-xl sm:text-2xl underline underline-offset-8 py-4 font-RedHatItalic italic" id="Pytanie">Ile czasu zajmuje stworzenie customowej lampy?</div>
+          <div id="Odpowiedź" className="font-RedHatItalic font-light text-[16px] sm:text-md">Czas produkcji zależy od skomplikowania projektu i obciążenia pracą. Zazwyczaj informujemy o szacunkowym czasie realizacji przy składaniu zamówienia.</div>
+
         </div>
-        <div className="mb-6">
-          <div className="text-2xl underline underline-offset-8 py-4 font-RedHatItalic italic" id="Pytanie">Czy oferujecie usługę instalacji customowej lampy w moim domu?</div>
-          <div id="Odpowiedź" className="font-RedHatItalic font-light">Niestety, nie oferujemy usług instalacyjnych, ale zapewnimy szczegółowe instrukcje montażu. W razie pytań lub problemów jesteśmy dostępni, aby pomóc zdalnie.</div>
+
+        <div className="mb-16">
+          <div className="text-xl sm:text-2xl underline underline-offset-8 py-4 font-RedHatItalic italic" id="Pytanie">Czy oferujecie usługę instalacji customowej lampy w moim domu?</div>
+          <div id="Odpowiedź" className="font-RedHatItalic font-light text-[16px] sm:text-md">Niestety, nie oferujemy usług instalacyjnych, ale zapewnimy szczegółowe instrukcje montażu. W razie pytań lub problemów jesteśmy dostępni, aby pomóc zdalnie.</div>
+
         </div>
+
       </div>
       <Footer />
     </main>

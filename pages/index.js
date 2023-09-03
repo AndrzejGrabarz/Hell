@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen w-full flex-col items-center ">
       <Navbar />
-      <div className="flex w-full mt-8 ">
+      <div className="flex w-full mt-16 ">
         <Image
           src="/Wstęp.jpg"
           alt="Wstęp"
@@ -17,7 +17,7 @@ export default function Home() {
         />
       </div>
       <div className="flex self-start text-4xl m-12 font-RedHatItalic  italic ">Lampy</div>
-      <div className="flex justify-center flex-row mt-12 flex-wrap">
+      <div className="flex justify-center flex-row mt-8 sm:mt-12 flex-wrap">
         <ImageBox lampOn="KluczOff" lampOff="KluczOn" lampa="Klucz" />
         <ImageBox lampOn="LotosOff" lampOff="LotosOn" lampa="Lotos" />
         <ImageBox lampOn="PasekOff" lampOff="PasekOn" lampa="Pasek" />
@@ -29,7 +29,7 @@ export default function Home() {
         <ImageBox lampOn="PasekOff" lampOff="PasekOn" lampa="Pasek" />
       </div>
       <div className="flex self-start text-4xl m-12 font-RedHatItalic  italic">Patery</div>
-      <div className="flex justify-center flex-row mt-12 flex-wrap">
+      <div className="flex justify-center flex-row mt-12 flex-wrap mb-4">
         <ImageBox lampOn="KluczOff" lampOff="KluczOn" lampa="Klucz" />
         <ImageBox lampOn="LotosOff" lampOff="LotosOn" lampa="Lotos" />
         <ImageBox lampOn="PasekOff" lampOff="PasekOn" lampa="Pasek" />
