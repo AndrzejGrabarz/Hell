@@ -38,11 +38,3 @@ export default function Home() {
     </main>
   );
 }
-
-/*
-   {/* {Array(6).fill().map((item, index) => (
-          <ImageBox key={index} photo="Lampa R2" />
-        ))}
-        {Array(6).fill().map((item, index) => (
-          <ImageBox key={index} photo="Lampa R3" />
-        ))} */
