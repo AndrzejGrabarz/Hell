@@ -5,9 +5,8 @@ export default function Kontakt() {
   return (
     <main className="flex min-h-screen w-full flex-col items-center ">
       <Navbar />
-      <div className=" flex flex-col justify-center mt-20 w-full">
-        <div className="flex flex-col">
-          <form className="flex flex-col bg-gradient-to-b from-[#d6dbdc] to-[#ffffff] shadow-md rounded px-8 pt-6 pb-8 h-full text-sm sm:text-md m-8" action="/send-data-here" method="post">
+      <div className=" flex flex-col sm:flex-row justify-center items-center mt-20">
+          <form className="flex flex-col bg-gradient-to-b from-[#d6dbdc] to-[#ffffff] shadow-md rounded px-8 pt-6 pb-8 h-full text-sm sm:text-md  " action="/send-data-here" method="post">
             <label className="mb-4" htmlFor="first">
               <input className=" shadow appearance-none border rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" id="first" name="first" placeholder="Your Name" required />
             </label>
@@ -25,9 +24,8 @@ export default function Kontakt() {
             </label>
             <button className="text-blue-500 text-lg sm:text-xl hover:text-blue-700 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">Send Message &ndash;&gt;</button>
           </form>
-        </div>
-        <div className="m-8">
-          <div className="text-2xl sm:text-3xl mb-8 font-RedHatItalic font-medium">Dane Kontaktowe</div>
+        <div className="sm:flex sm:flex-col sm:w-3/12 m-8 sm:m-8 ">
+          <div className="text-2xl sm:text-3xl mb-8 font-RedHatItalic font-medium text-center">Dane Kontaktowe</div>
           <div className="text-xl mb-4 font-RedHatItalic font-light">
             Email:
             <span className="text-lg sm:text-xl font-RedHatItalic font-light"> BielIBlask@gmail.com</span>
@@ -40,7 +38,7 @@ export default function Kontakt() {
             Telefon:
             <span className="text-lg sm:text-xl font-RedHatItalic font-light">  +48 123 123 123</span>
           </div>
-          <div className="text-lg sm:text-xl font-RedHatItalic font-light">
+          <div className="text-lg sm:text-xl font-RedHatItalic font-light text-center">
             Szukasz czegoś innego? Masz własny pomysł na kształt lampy? Nie bój się napisać do nas jesteśmy mili ludzie 😉 Pomożemy, doradzimy. Odpowiedź otrzymasz odrazu albo w ciągu 2 nastepnych dni w razie czego zawsze może dzwonić od 8:00 do 15:00. Lampy same się nie zrobią.
           </div>
         </div>

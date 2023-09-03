@@ -17,11 +17,11 @@ function Lampa() {
   return (
     <div className="flex min-h-screen w-full flex-col items-center">
       <Navbar />
-      <div className="flex flex-col items-center min-h-screen  w-full mb-8 ">
+      <div className="flex flex-col sm:flex-row items-center min-h-screen  w-full mb-8 ">
         <Modal data={data} />
-        <div className=" flex flex-col min-h-screen w-3/4 p-8 items-center">
+        <div className=" flex flex-col min-h-screen  items-center">
           <button type="submit" onClick={show} className="cursor-pointer">
-            <div className="w-[300px] h-[400px]  sm:w-[400px] sm:h-[500px]">
+            <div className="w-[300px] h-[400px]  sm:w-[500px] sm:h-[600px] sm:mx-16">
               <Image
                 className="rounded shadow-2xl mt-20 border-2 border-black"
                 src={data.lampOffSrc}
@@ -36,7 +36,7 @@ function Lampa() {
           <div className="flex flex-row items-center justify-center mt-20">
             {/* <button className="mr-8" id="myButton">&#10094;</button> */}
             {data.morePhotos.map((photo, index) => (
-              <div className="w-[100px] h-[100px]  sm:w-[400px] sm:h-[500px] mx-2">
+              <div className="w-[100px] h-[100px]  sm:w-[120px] sm:h-[120px] mx-2">
                 <Image
                   className="rounded shadow-2xl border-2 border-black hover:scale-125 rounded"
                   src={photo}
@@ -51,7 +51,7 @@ function Lampa() {
             {/* <button className="ml-8" id="myButton">&#10095;</button> */}
           </div>
         </div>
-        <div className=" flex  min-h-screen w-full">
+        <div className=" flex  min-h-screen w-full  sm:mr-16">
           <div className="">
             <div className="flex justify-center mb-16 text-6xl mt-24 font-RedHatItalic font-medium italic">
               {/* {data.name} */}
