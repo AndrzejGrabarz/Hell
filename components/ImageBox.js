@@ -12,7 +12,7 @@ function ImageBox({ lampOn, lampOff, lampa }) {
   const selectedLamp = WybierzLampe.find((e) => e.name === lampa);
   return (
     <div
-      className="flex px-12 py-8 cursor-pointer mx-8 my-4"
+      className="flex px-12 sm:py-8 cursor-pointer mx-8 sm:my-4 my-8 "
       onMouseOver={() => setIsLampOn(true)}
       onMouseOut={() => setIsLampOn(false)}
     >
@@ -21,13 +21,17 @@ function ImageBox({ lampOn, lampOff, lampa }) {
         query: { data: (JSON.stringify(selectedLamp)) },
       }}
       >
-        <Image
-          className="rounded shadow-2xl"
-          src={`/${isLampOn ? lampOff : lampOn}.jpg`}
-          alt=""
-          width={300}
-          height={300}
-        />
+        <div className="w-[200px] h-[300px]  sm:w-[300px] sm:h-[400px]">
+          <Image
+            className="rounded shadow-2xl"
+            src={`/${isLampOn ? lampOff : lampOn}.jpg`}
+            sizes="100vw"
+            style={{ width: '100%', height: '100%' }}
+            width={500}
+            height={300}
+            priority
+          />
+        </div>
       </Link>
 
       {/* <Image
