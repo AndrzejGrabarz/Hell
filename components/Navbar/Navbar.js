@@ -18,16 +18,16 @@ function Navbar() {
       </div>
       <ul className="flex flex-col sm:flex-row sm:justify-center text-2xl sm:text-4xl text-center w-full font-test">
             <li>
-              <Link href="/" className="block py-2 px-8  text-gray-900 rounded  hover:scale-110  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white" aria-current="page">Stron Główna</Link>
+              <Link href="/" className="block py-2 px-8  text-gray-900 rounded  hover:scale-110" aria-current="page">Stron Główna</Link>
             </li>
             <li>
-              <Link href="/Ofirmie" className="block py-2 px-8  text-gray-900 rounded hover:scale-110  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white ">O firmie</Link>
+              <Link href="/Ofirmie" className="block py-2 px-8  text-gray-900 rounded hover:scale-110 ">O firmie</Link>
             </li>
             <li>
-              <Link href="/Galeria" className="block py-2 px-8  text-gray-900 rounded hover:scale-110  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white ">Galeria</Link>
+              <Link href="/Galeria" className="block py-2 px-8  text-gray-900 rounded hover:scale-110 ">Galeria</Link>
             </li>
             <li>
-              <Link href="/Kontakt" className="block py-2 px-8  text-gray-900 rounded hover:scale-110  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white ">Kontakt</Link>
+              <Link href="/Kontakt" className="block py-2 px-8  text-gray-900 rounded hover:scale-110 ">Kontakt</Link>
             </li>
           </ul>
     </div>

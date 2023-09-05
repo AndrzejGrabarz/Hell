@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 function Footer() {
   return (
-    <footer className="bg-white rounded-lg shadow dark:bg-gray-900 w-full">
+    <footer className="bg-white rounded-lg shadow w-full">
       <div className="w-full mx-auto py-4 px-8">
         <div className="sm:flex sm:items-center justify-between">
           <div className="flex">
@@ -14,7 +14,7 @@ function Footer() {
               <Image id="logo" src="/instagram.png" width={35} height={35} className="h-6 w-6 sm:h-8 sm:w-8 mr-3 " alt="Flowbite Logo" />
             </a>
           </div>
-          <ul className="flex flex-wrap items-center mb-4 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+          <ul className="flex flex-wrap items-center mb-4 text-sm font-medium text-gray-500 sm:mb-0">
             <li>
               <Link href="/Ofirmie" className="mr-4 hover:underline md:mr-6 ">About</Link>
             </li>
@@ -29,8 +29,8 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <hr className="sm:my-4 my-2 border-gray-200 dark:border-gray-700" />
-        <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
+        <hr className="sm:my-4 my-2 border-gray-200 " />
+        <span className="block text-sm text-gray-500 sm:text-center">
           © 2023
           {' '}
           {/* <a href="https://flowbite.com/" className="hover:underline">Flowbite™</a> */}
