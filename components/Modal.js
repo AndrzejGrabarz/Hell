@@ -33,7 +33,6 @@ function Modal({ data }) {
                 <Image
                   className="rounded "
                   src={data.morePhotos[imageSrc]}
-                  // sizes="100vw"
                   style={{ width: '100%', height: '100%' }}
                   width={150}
                   height={150}
