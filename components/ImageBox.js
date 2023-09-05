@@ -33,20 +33,6 @@ function ImageBox({ lampOn, lampOff, lampa }) {
           />
         </div>
       </Link>
-
-      {/* <Image
-        onMouseOver={() => {
-          imageRef.current.src = `/${lampOff}.jpg`;
-        }}
-        onMouseOut={() => {
-          imageRef.current.src = `/${lampOn}.jpg`;
-        }}
-        src={`/${lampOn}.jpg`}
-        alt=" "
-        width={300}
-        height={300}
-        ref={imageRef}
-      /> */}
     </div>
   );
 }

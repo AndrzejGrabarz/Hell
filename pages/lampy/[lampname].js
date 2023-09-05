@@ -6,13 +6,12 @@ import Footer from '@/components/Footer';
 
 function Lampa() {
   const router = useRouter();
-  const { lampname } = router.query;
+
   const data = router.query.data ? (JSON.parse(router.query.data)) : null;
 
   function show() {
     const modal = document.getElementById('modal');
     modal.classList.toggle('show');
-    console.log(data.morePhotos);
   }
   return (
     <div className="flex min-h-screen w-full flex-col items-center">
@@ -22,32 +21,41 @@ function Lampa() {
         <div className=" flex flex-col min-h-screen  items-center">
           <button type="submit" onClick={show} className="cursor-pointer">
             <div className="w-[300px] h-[400px]  sm:w-[500px] sm:h-[600px] sm:mx-16">
-              <Image
-                className="rounded shadow-2xl mt-20 border-2 border-black"
-                src={data.lampOffSrc}
-                sizes="100vw"
-                style={{ width: '100%', height: '100%' }}
-                width={500}
-                height={300}
-                priority
-              />
+              {data && data.lampOffSrc ? (
+                <Image
+                  className="rounded shadow-2xl mt-20 border-2 border-black"
+                  src={data.lampOffSrc}
+                  sizes="100vw"
+                  style={{ width: '100%', height: '100%' }}
+                  width={500}
+                  height={300}
+                  priority
+                />
+              ) : (
+                <p>Brak danych o lampie</p>
+              )}
             </div>
           </button>
           <div className="flex flex-row items-center justify-center mt-20">
             {/* <button className="mr-8" id="myButton">&#10094;</button> */}
-            {data.morePhotos.map((photo, index) => (
-              <div className="w-[100px] h-[100px]  sm:w-[120px] sm:h-[120px] mx-2">
-                <Image
-                  className="rounded shadow-2xl border-2 border-black hover:scale-125 rounded"
-                  src={photo}
-                  sizes="100vw"
-                  style={{ width: '100%', height: '100%' }}
-                  width={150}
-                  height={150}
-                  priority
-                />
-              </div>
-            ))}
+
+            {data && data.morePhotos ? (
+              data.morePhotos.map((photo, index) => (
+                <div className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] mx-2" >
+                  <Image
+                    className="rounded shadow-2xl border-2 border-black hover:scale-125 rounded"
+                    src={photo}
+                    sizes="100vw"
+                    style={{ width: '100%', height: '100%' }}
+                    width={150}
+                    height={150}
+                    priority
+                  />
+                </div>
+              ))
+            ) : (
+              <p>Brak dodatkowych zdjęć</p>
+            )}
             {/* <button className="ml-8" id="myButton">&#10095;</button> */}
           </div>
         </div>

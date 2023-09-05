@@ -30,6 +30,7 @@ function Modal({ data }) {
         <div className=" flex flex-col items-center justify-center ">
           <div className="">
             <div className="w-[300px] h-[300px]  sm:w-[700px] sm:h-[700px] mx-2 sm:mx-20">
+              {data && data.morePhotos ? (
                 <Image
                   className="rounded "
                   src={data.morePhotos[imageSrc]}
@@ -38,9 +39,13 @@ function Modal({ data }) {
                   height={150}
                   priority
                 />
-              </div>
+              ) : (
+                'bład'
+              )}
+
             </div>
-         
+          </div>
+
           {/* <!-- Next/previous controls --> */}
         </div>
         <button id="myButton" className="text-white text-2xl sm:text-5xl" onClick={changeImageSrcToNext}>&#10095;</button>
