@@ -31,7 +31,7 @@ function ImageBoxGallery({ lampOn, lampOff, lampa }) {
       onMouseOut={() => setIsLampOn(false)}
     >
       <button type="submit" onClick={show}>
-        <div className="w-[200px] h-[300px]  sm:w-[300px] sm:h-[400px]">
+        <div className="w-[200px] h-[300px]  sm:w-[400px] sm:h-[500px]">
           <Image
             className="rounded shadow-2xl"
             src={`/${isLampOn ? lampOff : lampOn}.jpg`}

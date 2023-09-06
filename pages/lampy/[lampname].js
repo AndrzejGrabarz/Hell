@@ -23,7 +23,7 @@ function Lampa() {
             <div className="w-[300px] h-[400px]  sm:w-[500px] sm:h-[600px] sm:mx-16">
               {data && data.lampOffSrc ? (
                 <Image
-                  className="rounded shadow-2xl mt-20 border-2 border-black"
+                  className="rounded shadow-2xl mt-20 "
                   src={data.lampOffSrc}
                   sizes="100vw"
                   style={{ width: '100%', height: '100%' }}
@@ -43,7 +43,7 @@ function Lampa() {
               data.morePhotos.map((photo, index) => (
                 <div className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] mx-2" >
                   <Image
-                    className="rounded shadow-2xl border-2 border-black hover:scale-125 rounded"
+                    className="rounded shadow-2xl  hover:scale-125 rounded"
                     src={photo}
                     sizes="100vw"
                     style={{ width: '100%', height: '100%' }}
@@ -61,7 +61,7 @@ function Lampa() {
         </div>
         <div className=" flex  min-h-screen w-full  sm:mr-16">
           <div className="">
-            <div className="flex justify-center mb-16 text-6xl mt-24 font-RedHatItalic font-medium italic">
+            <div className="flex justify-center mb-16 text-6xl mt-24 font-RedHatItalic font-medium">
               {/* {data.name} */}
               {' '}
               Lotos

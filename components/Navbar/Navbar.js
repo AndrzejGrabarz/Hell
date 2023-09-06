@@ -5,14 +5,14 @@ import Link from 'next/link';
 function Navbar() {
   return (
     <div className="flex flex-col sm:flex-row items-center  font-mono w-full">
-      <div className="m-16">
+      <div className="m:12 sm:m-24">
         <Image
           id="logo"
           src="/logo.png"
           alt="Vercel Logo"
           className="sm:mx-auto"
-          width={200}
-          height={200}
+          width={350}
+          height={350}
           priority
         />
       </div>

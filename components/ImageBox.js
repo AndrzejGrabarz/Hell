@@ -21,7 +21,7 @@ function ImageBox({ lampOn, lampOff, lampa }) {
         query: { data: (JSON.stringify(selectedLamp)) },
       }}
       >
-        <div className="w-[200px] h-[300px]  sm:w-[300px] sm:h-[400px]">
+        <div className="w-[200px] h-[300px]  sm:w-[600px] sm:h-[700px]">
           <Image
             className="rounded shadow-2xl"
             src={`/${isLampOn ? lampOff : lampOn}.jpg`}
