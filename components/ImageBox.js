@@ -25,6 +25,7 @@ function ImageBox({ lampOn, lampOff, lampa }) {
           <Image
             className="rounded shadow-2xl"
             src={`/${isLampOn ? lampOff : lampOn}.jpg`}
+            alt={selectedLamp.name}
             sizes="100vw"
             style={{ width: '100%', height: '100%' }}
             width={500}

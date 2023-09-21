@@ -21,6 +21,7 @@
 @font-face {
   font-family: 'Caveat';
   src: url("../fonts/Caveat.ttf");
+  font-display: swap;
 }
 
 body {
@@ -45,4 +46,36 @@ body {
 .custom-underline-overline {
   text-decoration: underline overline;
   text-underline-offset: 20px;
+}
+
+.red {
+  background-color:red;
+}
+
+.green {
+  background-color:green;
+}
+
+.black {
+  background-color:black;
+}
+
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loader {
+  border: 3px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 3px solid #3498db;
+  width: 15px;
+  height: 15px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+.show {
+  display: none;
 }

@@ -13,7 +13,6 @@ export default function Home() {
           alt="Wstęp"
           width={3396}
           height={1235}
-          layout="responsive"
         />
       </div>
       <div className="flex self-start text-3xl  m-12 sm:text-6xl  md:text-6xl  lg:text-7xl sm:mx-16 sm:my-32 font-RedHatItalic  italic ">Lampy</div>

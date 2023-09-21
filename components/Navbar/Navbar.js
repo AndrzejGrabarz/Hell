@@ -1,11 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import NavbarMenu from './NavbarMenu';
 
 function Navbar() {
   return (
-    <div className="flex flex-col sm:flex-col md:flex-col lg:flex-col xl:flex-row items-center  font-mono w-full mb-12">
-      <div className="m-12 sm:m-24 w-[250px] h-[250px]  sm:w-[400px] sm:h-[450px] md:w-[400px] md:h-[450px] lg:w-[500px] lg:h-[550px]">
+    <div className="flex flex-col sm:flex-col md:flex-col lg:flex-col xl:flex-col 2xl:flex-row items-center  font-mono w-full mb-12">
+      <div className="m-12 sm:m-24 w-[250px] h-[250px]  sm:w-[300px] sm:h-[350px] md:w-[360px] md:h-[410px] lg:w-[380px] lg:h-[430px] xl:w-[400px] xl:h-[450px] 4xl:w-[550px] 4xl:h-[550px]">
         <Image
           id="logo"
           src="/logo.png"
