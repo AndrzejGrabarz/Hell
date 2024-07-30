@@ -1,46 +1,68 @@
 import Image from 'next/image';
-import Link from 'next/link';
+import Footer from '@/components/Footer';
+import Navbar from '@/components/Navbar/Navbar';
 
 export default function Ofirmie() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-14">
-      <div className="flex items-center justify-between font-mono w-full">
-        <div className="flex justify-items-end">
-          <Image
-            src="/logo.png"
-            alt="Vercel Logo"
-            className="dark:invert"
-            width={200}
-            height={48}
-            priority
-          />
-        </div>
-        <nav className=" border-gray-200 dark:bg-gray-900 dark:border-gray-700">
-          <div className="flex  items-center justify-between  p-4">
-            <div className="w-full md:block md:w-auto" id="navbar-multi-level">
-              <ul className="flex flex-row font-medium p-4 mt-4  rounded-lg  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-              <li>
-                  <Link href="/" className="block py-2 pl-3 text-xl pr-4 text-gray-900 rounded  hover:bg-gray-100  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white" aria-current="page">Stron Główna</Link>
-                </li>
-                <li>
-                  <Link href="/Ofirmie" className="block py-2 pl-3 text-xl pr-4 text-gray-900 rounded hover:bg-gray-100  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white ">O firmie</Link>
-                </li>
-                <li>
-                  <Link href="/Galeria" className="block py-2 pl-3 text-xl pr-4 text-gray-900 rounded hover:bg-gray-100  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white ">Galeria</Link>
-                </li>
-                <li>
-                  <Link href="/Kontakt" className="block py-2 pl-3 text-xl pr-4 text-gray-900 rounded hover:bg-gray-100  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white ">Kontakt</Link>
-                </li>
-              </ul>
-            </div>
+    <main className=" min-h-screen w-full items-center ">
+      <Navbar />
+      <div className="flex flex-col sm:flex-col md:flex-col lg:flex-col xl:flex-col 2xl:flex-row items-center mt-16 mb-12 mx-auto 4xl:mx-96 ">
+
+        <div className="">
+          <div className="w-[280px] h-[380px]  sm:w-[400px] sm:h-[500px] mb-8 2xl:ml-40 ">
+            <Image
+              className="rounded shadow-2xl"
+              src="/Benedykt.jpg"
+              sizes="100vw"
+              style={{ width: '100%', height: '100%' }}
+              width={500}
+              height={300}
+              priority
+            />
           </div>
-        </nav>
-        <div className="flex items-center flex-row mt-4 mr-4">
-          <div className="mx-6 text-xl">Login</div>
-          <div className="text-xl">Koszyk</div>
+        </div>
+
+        <div className="flex flex-col sm:flex-col md:flex-col text-center sm:flex-col  sm:h-full sm:p-8 mx-auto 2xl:mx-auto 4xl:mx-12 ">
+          <div className="text-3xl sm:text-4xl m-8 font-RedHatItalic font-medium italic">O mnie</div>
+          <div className=" text-lg sm:text-2xl font-RedHatItalic font-light mx-4 sm:mx-auto">
+            Benedykt Możdżeń, absolwent Wydziału Ceramiki i Szkła ASP we Wrocławiu. Dyplom w pracowni prof. Krystyny Cybińskiej. Zajmuje się ceramiką unikatową i przemysłową. Prace artystyczne znajdują się w zbiorach prywatnych i muzeach. Inspiracji dla swoich prac poszukuje w pięknie natury organicznej. Projektuje i wykonuje elementy dekoracyjne i użytkowe do wnętrz takie jak lampy, wazony, patery, formy przestrzenne.
+          </div>
         </div>
       </div>
-
+      <div className="flex flex-col sm:flex-col md:flex-col 4xl:flex-row items-center justify-center mt-12 mb-12 mx-auto  sm:p-8 2xl:mx-80 ">
+        <div>
+          <div className="w-[300px] h-[400px]  sm:w-[400px] sm:h-[500px] mb-8 ">
+            <Image
+              className="rounded shadow-2xl"
+              src="/LotosOff.jpg"
+              style={{ width: '100%', height: '100%' }}
+              width={500}
+              height={300}
+              priority
+            />
+          </div>
+        </div>
+        <div className="flex flex-col sm:flex-row sm:text-center sm:flex-col  sm:h-full  mx-auto ">
+          <div className=" text-3xl sm:text-4xl my-8 font-RedHatItalic font-medium italic m-8">Filozofia</div>
+          <div className="text-lg sm:text-2xl font-RedHatItalic font-light p-8">
+            Wykorzystując przeświecalność porcelany i autorską technikę tworzę nastrojowe i unikatowe lampy. Każda jest niepowtarzalna, ma indywidualny charakter, łączy funkcjonalność z oryginalną formą. Lampy dzięki ręcznemu procesowi tworzenia zyskują duszę i charakter. Forma i światło pozwalają na aranżację niepowtarzalnej i nastrojowej przestrzeni.Porcelana jest szlachetnym i wymagającym tworzywem ceramicznym. Proces powstawania dzieła wymaga cierpliwości i czasu, ale efekt końcowy jest ukoronowaniem pasji tworzenia.
+          </div>
+        </div>
+        <div>
+          <div className=" w-[300px] h-[400px]  sm:w-[400px] sm:h-[500px] my-8">
+            <Image
+              className="rounded shadow-2xl"
+              src="/LotosOn.jpg"
+              sizes="100vw"
+              style={{ width: '100%', height: '100%' }}
+              width={500}
+              height={300}
+              priority
+            />
+          </div>
+        </div>
+      </div>
+      <Footer />
     </main>
   );
 }
