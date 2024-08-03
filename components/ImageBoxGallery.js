@@ -26,7 +26,7 @@ function ImageBoxGallery({ lampOn, lampOff, lampa }) {
 
   return (
     <div
-      className="flex  py-8 cursor-pointer mx-8 my-4"
+      className="flex px-12 py-8 cursor-pointer mx-8 my-4"
       onMouseOver={() => setIsLampOn(true)}
       onMouseOut={() => setIsLampOn(false)}
     >
