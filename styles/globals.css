@@ -18,20 +18,29 @@
   }
 }
 
+html,
+body,
+#__next {
+   height: 100vh;
+}
+
 @font-face {
   font-family: 'Caveat';
   src: url("../fonts/Caveat.ttf");
   font-display: swap;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ustawienie pełnej wysokości dla html i body */
+
+
 body {
-  color: rgb(0, 0, 0);
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(255, 255, 255)
-    )
-    rgb(214, 219, 220);
+  background: linear-gradient(to right, #725E4A, #A3927D, #7D6751);
 }
 
 /* img:not(#logo) {
@@ -42,6 +51,7 @@ body {
 .show {
   display: none;
 }
+
 
 .custom-underline-overline {
   text-decoration: underline overline;
@@ -78,4 +88,14 @@ body {
 
 .show {
   display: none;
+}
+
+.icon {
+  font-size: 100px;
+  cursor: pointer;
+}
+
+img {
+  height: 100px;
+  width: 100px;
 }

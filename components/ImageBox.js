@@ -12,7 +12,7 @@ function ImageBox({ lampOn, lampOff, lampa }) {
   const selectedLamp = WybierzLampe.find((e) => e.name === lampa);
   return (
     <div
-      className="flex px-12 sm:py-8 cursor-pointer m-8 sm:my-4 "
+      className="flex sm:py-8 cursor-pointer  sm:my-4 "
       onMouseOver={() => setIsLampOn(true)}
       onMouseOut={() => setIsLampOn(false)}
     >
@@ -21,7 +21,7 @@ function ImageBox({ lampOn, lampOff, lampa }) {
         query: { data: (JSON.stringify(selectedLamp)) },
       }}
       >
-        <div className="w-[200px] h-[300px]  sm:w-[400px] sm:h-[500px] md:w-[500px] md:h-[600px] lg:w-[550px] lg:h-[650px] xl:w-[550px] xl:h-[650px]">
+        <div className="w-[200px] h-[300px]  sm:w-[400px] sm:h-[500px] md:w-[500px] md:h-[600px] lg:w-[550px] lg:h-[650px] xl:w-[250px] xl:h-[250px]">
           <Image
             className="rounded shadow-2xl"
             src={`/${isLampOn ? lampOff : lampOn}.jpg`}
@@ -32,6 +32,8 @@ function ImageBox({ lampOn, lampOff, lampa }) {
             height={300}
             priority
           />
+          <div className='w-full bg-white'>Miód spadziowy</div>
+          <div className='w-full bg-white'>200 zł</div>
         </div>
       </Link>
     </div>
