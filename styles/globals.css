@@ -41,6 +41,8 @@ body,
 
 body {
   background: linear-gradient(to right, #725E4A, #A3927D, #7D6751);
+  /* margin-left: 100px;
+  margin-right: 100px; */
 }
 
 /* img:not(#logo) {
