@@ -93,7 +93,7 @@ body {
 }
 
 .icon {
-  font-size: 100px;
+  font-size: 70px;
   cursor: pointer;
 }
 
@@ -101,3 +101,9 @@ img {
   height: 100px;
   width: 100px;
 }
+
+button[aria-pressed="true"] {
+  background-color: #4CAF50; /* Zielony kolor dla wciśniętego przycisku */
+  color: white;
+}
+

@@ -6,7 +6,7 @@ export default function Galeria() {
   return (
     <main className="flex min-h-screen w-full flex-col items-center ">
       <Navbar />
-      <div className="text-4xl  sm:text-5xl font-RedHatItalic font-normal italic mt-12">Wszystkie dzieła</div>
+      <div className="text-4xl  sm:text-5xl font-RedHatItalic font-normal italic mt-12">Kawałek z naszego życia</div>
       <div className="flex justify-center flex-row mt-12 flex-wrap mb-12">
         {/* <Modal /> */}
         <ImageBoxGallery lampOn="KluczOff" lampOff="KluczOn" lampa="Klucz" />

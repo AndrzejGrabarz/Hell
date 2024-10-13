@@ -9,10 +9,10 @@ function Navbar() {
           <Link href="/" className="block py-2 px-8  text-white rounded  hover:scale-110" aria-current="page">Stron Główna</Link>
         </li>
         <li>
-          <Link href="/Ofirmie" className="block py-2 px-8  text-white rounded hover:scale-110 ">O firmie</Link>
+          <Link href="/Ofirmie" className="block py-2 px-8  text-white rounded hover:scale-110 ">Pasieka</Link>
         </li>
         <li>
-          <Link href="/Galeria" className="block py-2 px-8  text-white rounded hover:scale-110 ">Galeria</Link>
+          <Link href="/Galeria" className="block py-2 px-8  text-white rounded hover:scale-110 ">Jak to wygląd</Link>
         </li>
         <li>
           <Link href="/Kontakt" className="block py-2 px-8  text-white rounded hover:scale-110 ">Kontakt</Link>

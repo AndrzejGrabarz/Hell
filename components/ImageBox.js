@@ -4,12 +4,19 @@ import Image from 'next/image';
 import { useRef } from 'react';
 import { useState } from 'react';
 import Link from 'next/link';
-import WybierzLampe from '@/utils/Lampy';
+import Miody from '@/utils/Miody';
 
 function ImageBox({ lampOn, lampOff, lampa }) {
   const [isLampOn, setIsLampOn] = useState(false);
 
-  const selectedLamp = WybierzLampe.find((e) => e.name === lampa);
+  const selectedLamp = Miody.find((e) => e.name === lampa);
+
+  const [isPressed, setIsPressed] = useState(true);
+
+  const handleClick = () => {
+    setIsPressed(!isPressed);
+  };
+
   return (
     <div
       className="flex flex-col sm:py-8 cursor-pointer  sm:my-4 m-10"
@@ -35,9 +42,12 @@ function ImageBox({ lampOn, lampOff, lampa }) {
         </div>
       </Link>
       <div className="flex flex-col  w-full bg-white rounded-b-lg justify-center items-center p-10 ">
-        <p>Miód spadziowy</p>
-        <p>200g</p>
-        <p>200zł</p>
+        <p>{selectedLamp.honey_name}</p>
+        <div className="flex flex-row">
+          <button onClick={handleClick} aria-pressed={!isPressed} type="button" className=" mr-4 py-2 px-4">450g</button>
+          <button onClick={handleClick} aria-pressed={isPressed} type="button" className=" ml-4 py-1 px-4">1000g</button>
+        </div>
+        <p>{isPressed ? '100zł' : '50zł' }</p>
       </div>
     </div>
   );

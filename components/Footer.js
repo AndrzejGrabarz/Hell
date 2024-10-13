@@ -7,7 +7,7 @@ function Footer() {
       <div className="w-full mx-auto py-4 px-8">
         <div className="sm:flex sm:items-center justify-between">
           <div className="flex">
-            <Link href="https://www.facebook.com/bieliblask" className="flex">
+            <Link href="https://www.facebook.com/profile.php?id=100016290109115" className="flex">
               <Image id="logo" src="/facebook.png" width={35} height={35} className="h-6 w-6 sm:h-8 sm:w-8 mr-3 mb-2" alt="facebook" />
             </Link>
             <a href="#" className="flex">

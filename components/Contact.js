@@ -29,31 +29,35 @@ export default function Contact() {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail} className="flex flex-col bg-gradient-to-b from-[#d6dbdc] to-[#ffffff] shadow-md rounded p-8  h-full text-sm sm:text-md lg:text-xl xl:text-xl 2xl:text-xl 3xl:text-2xl 4xl:text-2xl  " action="/send-data-here" method="post">
-      <label className="mb-4" htmlFor="first">
-        <input className=" shadow appearance-none border rounded w-full p-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" id="first" name="user_name" placeholder="Your Name" />
-      </label>
-      <label className="mb-4" htmlFor="last">
-        <input className="w-full shadow appearance-none border rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" id="last" name="user_surname" placeholder=" Your Surname" />
-      </label>
-      <label className="mb-4" htmlFor="last">
-        <input className="w-full shadow appearance-none border rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="email" id="last" name="user_email" placeholder="Your Email" />
-      </label>
-      <label className="mb-4" htmlFor="last">
-        <input className="w-full shadow appearance-none border rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="tel" id="last" name="user_phone" placeholder="123-456-789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" />
-      </label>
-      <label>
-        <textarea className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline leading-6" name="message" placeholder="Message" rows={4} cols={50} />
-      </label>
-      <div ref={divCol} className="flex flex-row justify-center items-center ">
-        <button className="text-blue-500 text-lg sm:text-xl hover:text-blue-700 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline " type="submit">
-          Send Message
-        </button>
-        <div ref={buttonref} className="loader show" />
-        <XMarkIcon ref={xmarkRef} className="h-6 w-6 text-red-500 show" />
-        <CheckIcon ref={checkRef} className="h-6 w-6 text-green-500 show" />
-      </div>
 
-    </form>
+    <div className="relative flex justify-center items-center" >
+      {/* <div className="absolute bg-white w-[105%] h-[115%] rounded-lg shadow-lg z-1" /> */}
+      <form ref={form} onSubmit={sendEmail} className="flex flex-col bg-gradient-to-b from-[#d6dbdc] to-[#ffffff] shadow-md rounded p-8  h-full text-sm sm:text-md lg:text-xl xl:text-xl 2xl:text-xl 3xl:text-2xl 4xl:text-2xl z-0 " action="/send-data-here" method="post">
+        <label className="mb-4" htmlFor="first">
+          <input className=" shadow appearance-none border rounded w-full p-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" id="first" name="user_name" placeholder="Imię" />
+        </label>
+        <label className="mb-4" htmlFor="last">
+          <input className="w-full shadow appearance-none border rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" id="last" name="user_surname" placeholder="Nazwisko" />
+        </label>
+        <label className="mb-4" htmlFor="last">
+          <input className="w-full shadow appearance-none border rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="email" id="last" name="user_email" placeholder="Adres email" />
+        </label>
+        <label className="mb-4" htmlFor="last">
+          <input className="w-full shadow appearance-none border rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="tel" id="last" name="user_phone" placeholder="123-456-789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" />
+        </label>
+        <label>
+          <textarea className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline leading-6" name="message" placeholder="Message" rows={4} cols={50} />
+        </label>
+        <div ref={divCol} className="flex flex-row justify-center items-center ">
+          <button className="text-blue-500 text-lg sm:text-xl hover:text-blue-700 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline " type="submit">
+            Wiadomość
+          </button>
+          <div ref={buttonref} className="loader show" />
+          <XMarkIcon ref={xmarkRef} className="h-6 w-6 text-red-500 show" />
+          <CheckIcon ref={checkRef} className="h-6 w-6 text-green-500 show" />
+        </div>
+      </form>
+    </div>
+
   );
 }
