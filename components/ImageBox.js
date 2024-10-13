@@ -41,13 +41,13 @@ function ImageBox({ lampOn, lampOff, lampa }) {
           />
         </div>
       </Link>
-      <div className="flex flex-col  w-full bg-white rounded-b-lg justify-center items-center p-10 ">
-        <p>{selectedLamp.honey_name}</p>
+      <div className="flex flex-col  w-full bg-white rounded-b-lg justify-center items-center font-medium p-10 ">
+        <p className='text-xl mb-2'>{selectedLamp.honey_name}</p>
         <div className="flex flex-row">
-          <button onClick={handleClick} aria-pressed={!isPressed} type="button" className=" mr-4 py-2 px-4">450g</button>
-          <button onClick={handleClick} aria-pressed={isPressed} type="button" className=" ml-4 py-1 px-4">1000g</button>
+          <button onClick={handleClick} aria-pressed={!isPressed} type="button" className=" mr-4 py-1 px-2">450g</button>
+          <button onClick={handleClick} aria-pressed={isPressed} type="button" className=" ml-4 py-1 px-2">1000g</button>
         </div>
-        <p>{isPressed ? '100zł' : '50zł' }</p>
+        <p className='text-lg pt-4'>{isPressed ? '100,00 zł' : '50,00 zł' }</p>
       </div>
     </div>
   );

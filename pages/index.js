@@ -79,16 +79,16 @@ export default function Home() {
 
       <div className="max-w-[1530px] w-full mx-auto">
         <div className=" flex justify-center align-center">
-          <div className=" max-w-[280px]text-white text-2xl font-semibold p-10">
+          <div className=" max-w-[280px] text-[#000206] text-2xl font-semibold p-10">
             Produkty
-            <ul className="text-white text-xl font-semibold">
-              <li><button onClick={() => setCategory('Strona główna / miody')} href="/miody" type="button" className="block py-1   text-white rounded  hover:scale-110" aria-current="page">Miody</button></li>
-              <li><button onClick={() => setCategory('Strona główna / miody pitne')} href="/miody" type="button" className="block py-1   text-white rounded  hover:scale-110" aria-current="page">Pitne</button></li>
-              <li><button onClick={() => setCategory('Strona główna / akcesoria')} href="/miody" type="button" className="block py-1   text-white rounded  hover:scale-110" aria-current="page">Akcesoria</button></li>
+            <ul className="text-[#000206] text-xl font-semibold">
+              <li><button onClick={() => setCategory('Strona główna / miody')} href="/miody" type="button" className="block py-1   text-[#000206] rounded  hover:scale-110" aria-current="page">Miody</button></li>
+              <li><button onClick={() => setCategory('Strona główna / miody pitne')} href="/miody" type="button" className="block py-1   text-[#000206] rounded  hover:scale-110" aria-current="page">Pitne</button></li>
+              <li><button onClick={() => setCategory('Strona główna / akcesoria')} href="/miody" type="button" className="block py-1   text-[#000206] rounded  hover:scale-110" aria-current="page">Akcesoria</button></li>
             </ul>
           </div>
           <div className="max-w-[1340px]flex flex-col justify center align-center">
-            <div className="ml-10">{category}</div>
+            <div className="ml-10  text-lg font-medium ">{category}</div>
 
             {category === 'Strona główna / miody' && category ? (
               <div className="flex flex-row flex-wrap">

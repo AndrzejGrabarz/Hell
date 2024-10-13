@@ -30,7 +30,7 @@ export default function Kontakt() {
       <div className="flex justify-center text-4xl w-full py-4 mt-20 mb-8 custom-underline-overline font-RedHatItalic font-medium italic">
         FAQ
       </div>
-      <div className="flex flex-col my-8 mx-12 text-xl">
+      <div className="flex flex-col my-8 mx-40 text-xl">
 
         <div className="mb-16">
           <div className="text-xl sm:text-2xl 4xl:text-3xl underline underline-offset-8 py-4 font-RedHatItalic italic" id="Pytanie">Czy mogę zamówić miód o niestandardowym smaku lub kompozycji?</div>

@@ -62,45 +62,45 @@ export default function Ofirmie() {
           </div>
           <div className="col-span-1">
             <div className="grid grid-cols-3">
-              <div>
-                <img className="h-full w-full h-64 rounded-lg object-cover" src="/Domino/pszczoła 1.jpg" alt="" />
+              <div className="w-full h-60">
+                <img className="h-full w-full rounded-lg object-cover" src="/Domino/pszczoła 1.jpg" alt="" />
               </div>
-              <div>
-                <img className="h-full w-full h-64 rounded-lg object-cover" src="/Domino/pszczoła 2.jpg" alt="" />
+              <div className="w-full h-60">
+                <img className="h-full w-full rounded-lg object-cover" src="/Domino/pszczoła 2.jpg" alt="" />
               </div>
-              <div>
-                <img className="h-full w-full h-64 rounded-lg object-cover" src="/Domino/pszczoła 3.jpg" alt="" />
+              <div className="w-full h-60">
+                <img className="h-full w-full rounded-lg object-cover" src="/Domino/pszczoła 3.jpg" alt="" />
               </div>
-              <div>
-                <img className="h-full w-full h-64 rounded-lg object-cover" src="/Domino/pszczoła 4.jpg" alt="" />
+              <div className="w-full h-60">
+                <img className="h-full w-full rounded-lg object-cover" src="/Domino/pszczoła 4.jpg" alt="" />
               </div>
-              <div>
-                <img className="h-full w-full h-64 rounded-lg object-cover" src="/Domino/pszczoła 5.jpg" alt="" />
+              <div className="w-full h-60">
+                <img className="h-full w-full rounded-lg object-cover" src="/Domino/pszczoła 5.jpg" alt="" />
               </div>
-              <div>
-                <img className="h-full w-full h-64 rounded-lg object-cover" src="/Domino/pszczoła-6.jpg" alt="" />
+              <div className="w-full h-60">
+                <img className="h-full w-full rounded-lg object-cover" src="/Domino/pszczoła-6.jpg" alt="" />
               </div>
-              <div>
-                <img className="h-full w-full h-64 rounded-lg object-cover" src="/Domino/pszczoła-7.jpg" alt="" />
+              <div className="w-full h-60">
+                <img className="h-full w-full  rounded-lg object-cover" src="/Domino/pszczoła-7.jpg" alt="" />
               </div>
-              <div>
-                <img className="h-full w-full h-64 rounded-lg object-cover" src="/Domino/pszczoła-8.jpg" alt="" />
+              <div className="w-full h-60">
+                <img className="h-full w-full rounded-lg object-cover" src="/Domino/pszczoła-8.jpg" alt="" />
               </div>
-              <div>
-                <img className="h-full w-full h-64 rounded-lg object-cover" src="/Domino/pszczoła-9.jpg" alt="" />
+              <div className="w-full h-60">
+                <img className="h-full w-full rounded-lg object-cover" src="/Domino/pszczoła-9.jpg" alt="" />
               </div>
             </div>
           </div>
           <div className="col-span-1">
             <div className="grid grid-cols-3">
-              <div>
-                <img className="h-full w-full h-64 rounded-lg object-cover" src="/Domino/roślina 1.jpg" alt="" />
+              <div className="w-full h-60">
+                <img className="h-full w-full  rounded-lg object-cover" src="/Domino/roślina 1.jpg" alt="" />
               </div>
-              <div>
-                <img className="h-full w-full h-64 rounded-lg object-cover" src="/Domino/roślina-2.jpg" alt="" />
+              <div className="w-full h-60">
+                <img className="h-full w-full  rounded-lg object-cover" src="/Domino/roślina-2.jpg" alt="" />
               </div>
-              <div>
-                <img className="h-full w-full h-64 rounded-lg object-cover" src="/Domino/roślina-3.jpg" alt="" />
+              <div className="w-full h-60">
+                <img className="h-full w-full  rounded-lg object-cover" src="/Domino/roślina-3.jpg" alt="" />
               </div>
             </div>
           </div>
@@ -120,7 +120,7 @@ export default function Ofirmie() {
               miejsce, gdzie natura i tradycja idą w parze. To tutaj, w otoczeniu
               malowniczych krajobrazów, nasze pszczoły mają dostęp do różnorodnych
               roślin, co wpływa na bogaty smak naszych produktów. Zachwyć się pięknem
-              naszej okolicy, z której czerpiemy to, co najlepsze
+              naszej okolicy, z której czerpiemy to, co najlepszef asfsa
             </div>
           </div>
           <div className="col-span-1 flex flex-col justify-center items-center text-center">
