@@ -75,21 +75,21 @@ export default function Home() {
           <IoIosArrowForward onClick={() => showNextImage()} />
         </IconContext.Provider>
       </div>
-      <div className="flex justify-center ">
-        <div className="w-full w-10 h-10 m-6">
-          <img className="h-full w-full rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/honey.png" alt="" />
+      <div className="flex justify-center items-center ">
+        <div className="w-12 h-12 m-6">
+          <img className="w-full h-full  rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/honey.png" alt="" />
         </div>
-        <div className="w-full w-10 h-10 m-6">
-          <img className="h-full w-full rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/jelly.png" alt="" />
+        <div className="w-12 h-12 m-6">
+          <img className="w-full h-full rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/jelly.png" alt="" />
         </div>
-        <div className="w-full w-10 h-10 m-6">
-          <img className="h-full w-full rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/mead2.png" alt="" />
+        <div className="w-12 h-12 m-6">
+          <img className="w-full h-full  rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/mead2.png" alt="" />
         </div>
-        <div className="w-full w-10 h-10 m-6">
-          <img className="h-full w-full rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/candle.png" alt="" />
+        <div className="w-12 h-12 m-6">
+          <img className="w-full h-full  rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/candle.png" alt="" />
         </div>
-        <div className="w-full w-10 h-10 m-6">
-          <img className="h-full w-full rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/gift-box.png" alt="" />
+        <div className="w-12 h-12 m-6">
+          <img className="w-full h-full  rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/gift-box.png" alt="" />
         </div>
       </div>
       <main className="flex w-full flex-col items-center " />
