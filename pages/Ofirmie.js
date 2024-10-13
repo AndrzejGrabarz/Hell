@@ -72,7 +72,7 @@ export default function Ofirmie() {
                 <img className="h-full w-full rounded-lg object-cover" src="/Domino/pszczoła 3.jpg" alt="" />
               </div>
               <div className="w-full h-60">
-                <img className="h-full w-full rounded-lg object-cover" src="/Domino/pszczoła 4.jpg" alt="" />
+                <img className="h-full w-full rounded-lg object-cover" src="/Domino/Pszczoła 4.jpg" alt="" />
               </div>
               <div className="w-full h-60">
                 <img className="h-full w-full rounded-lg object-cover" src="/Domino/pszczoła 5.jpg" alt="" />

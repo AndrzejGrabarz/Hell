@@ -77,19 +77,19 @@ export default function Home() {
       </div>
       <div className="flex justify-center ">
         <div className="w-full w-10 h-10 m-6">
-          <img className="h-full w-full rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/icons/honey.png" alt="" />
+          <img className="h-full w-full rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/honey.png" alt="" />
         </div>
         <div className="w-full w-10 h-10 m-6">
-          <img className="h-full w-full rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/icons/jelly.png" alt="" />
+          <img className="h-full w-full rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/jelly.png" alt="" />
         </div>
         <div className="w-full w-10 h-10 m-6">
-          <img className="h-full w-full rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/icons/mead2.png" alt="" />
+          <img className="h-full w-full rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/mead2.png" alt="" />
         </div>
         <div className="w-full w-10 h-10 m-6">
-          <img className="h-full w-full rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/icons/candle.png" alt="" />
+          <img className="h-full w-full rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/candle.png" alt="" />
         </div>
         <div className="w-full w-10 h-10 m-6">
-          <img className="h-full w-full rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/icons/gift-box.png" alt="" />
+          <img className="h-full w-full rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/gift-box.png" alt="" />
         </div>
       </div>
       <main className="flex w-full flex-col items-center " />
