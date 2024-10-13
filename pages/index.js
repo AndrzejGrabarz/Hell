@@ -75,6 +75,23 @@ export default function Home() {
           <IoIosArrowForward onClick={() => showNextImage()} />
         </IconContext.Provider>
       </div>
+      <div className="flex justify-center ">
+        <div className="w-full w-10 h-10 m-6">
+          <img className="h-full w-full rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/icons/honey.png" alt="" />
+        </div>
+        <div className="w-full w-10 h-10 m-6">
+          <img className="h-full w-full rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/icons/jelly.png" alt="" />
+        </div>
+        <div className="w-full w-10 h-10 m-6">
+          <img className="h-full w-full rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/icons/mead2.png" alt="" />
+        </div>
+        <div className="w-full w-10 h-10 m-6">
+          <img className="h-full w-full rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/icons/candle.png" alt="" />
+        </div>
+        <div className="w-full w-10 h-10 m-6">
+          <img className="h-full w-full rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/icons/gift-box.png" alt="" />
+        </div>
+      </div>
       <main className="flex w-full flex-col items-center " />
 
       <div className="max-w-[1530px] w-full mx-auto">
