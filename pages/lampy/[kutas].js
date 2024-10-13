@@ -41,7 +41,7 @@ function Lampa() {
 
             {data && data.morePhotos ? (
               data.morePhotos.map((photo, index) => (
-                <div className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] mx-2" >
+                <div className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] mx-2">
                   <Image
                     className="rounded shadow-2xl  hover:scale-125 rounded"
                     src={photo}
@@ -62,18 +62,18 @@ function Lampa() {
         <div className=" flex  min-h-screen w-full  sm:mr-16">
           <div className="">
             <div className="flex justify-center mb-16 text-6xl mt-24 font-RedHatItalic font-medium">
-              {data.honey_name}
+              {data ? data.honey_name : 'Ładowanie...'}
             </div>
             <div>
               <div className="flex justify-center text-3xl sm:text-4xl mb-8 underline-offset-4">Opis</div>
               <div className="text-lg sm:text-2xl break-all border-t-2 border-black pt-8 font-RedHatItalic font-light italic mx-8">
-                {data.description}
+                {data ? data.description : 'Ładowanie...'}
               </div>
             </div>
             <div>
               <div className="flex justify-center text-3xl sm:text-4xl  my-8">Wykonanie</div>
               <div className="text-lg sm:text-2xl break-all border-t-2 border-black pt-8 font-RedHatItalic font-light italic mx-8">
-                {data.relization}
+                {data ? data.realization : 'Ładowanie...'}
               </div>
             </div>
           </div>
