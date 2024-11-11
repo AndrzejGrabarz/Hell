@@ -23,7 +23,7 @@ export default function Kontakt() {
             <span className="text-lg 4xl:text-2xl  sm:text-xl font-RedHatItalic font-light">  +48 123 123 123</span>
           </div>
           <div className="text-lg 4xl:text-2xl sm:text-xl font-RedHatItalic font-light text-center">
-            Szukasz czegoś innego? Masz własny pomysł na kształt lampy? Nie bój się napisać do nas jesteśmy mili ludzie 😉 Pomożemy, doradzimy. Odpowiedź otrzymasz odrazu albo w ciągu 2 nastepnych dni w razie czego zawsze może dzwonić od 8:00 do 15:00. Miód sam się nie zbierze.
+            Szukasz czegoś wyjątkowego? Masz pytania, które cie nurtują? Nie bój się napisać do nas jesteśmy mili ludzie 😉 Pomożemy, doradzimy. Odpowiedź otrzymasz odrazu albo w ciągu 2 nastepnych dni w razie czego zawsze może dzwonić od 8:00 do 15:00. Miód sam się nie zbierze.
           </div>
         </div>
       </div>
@@ -31,12 +31,6 @@ export default function Kontakt() {
         FAQ
       </div>
       <div className="flex flex-col my-8 mx-40 text-xl">
-
-        <div className="mb-16">
-          <div className="text-xl sm:text-2xl 4xl:text-3xl underline underline-offset-8 py-4 font-RedHatItalic italic" id="Pytanie">Czy mogę zamówić miód o niestandardowym smaku lub kompozycji?</div>
-          <div id="Odpowiedź" className="font-RedHatItalic font-light text-4xl:text-xl sm:text-md">Tak, oferujemy możliwość stworzenia niestandardowych kompozycji smakowych miodów na specjalne zamówienie. Skontaktuj się z nami, aby omówić swoje preferencje i możliwości stworzenia wyjątkowej mieszanki smaków.</div>
-
-        </div>
 
         <div className="mb-16">
           <div className="text-xl sm:text-2xl 4xl:text-3xl underline underline-offset-8 py-4 font-RedHatItalic italic" id="Pytanie">Jakie rodzaje miodów są dostępne?</div>

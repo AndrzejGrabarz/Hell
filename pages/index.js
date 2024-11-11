@@ -31,12 +31,111 @@ export default function Home() {
   }
 
   useEffect(() => {
-    setCategory('Strona główna / miody');
+    setCategory('miody');
   }, []);
 
   return (
-    <div className="flex flex-col w-full mx-auto">
+    <div className="flex flex-col min-h-full w-full mx-auto">
       <Navbar />
+      <div className="flex justify-center items-center my-8 ">
+        <div className="w-12 h-12 m-6" onClick={() => setCategory('miody')}>
+          <img className="w-full h-full  rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/honey.png" alt="" />
+        </div>
+        <div className="w-12 h-12 m-6" onClick={() => setCategory('miody smakowe')}>
+          <img className="w-full h-full rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/jelly.png" alt="" />
+        </div>
+        <div className="w-12 h-12 m-6" onClick={() => setCategory('miody pitne')}>
+          <img className="w-full h-full  rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/mead2.png" alt="" />
+        </div>
+        <div className="w-12 h-12 m-6" onClick={() => setCategory('apiterapia')}>
+          <img className="w-full h-full  rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/medicine.png" alt="" />
+        </div>
+        <div className="w-12 h-12 m-6" onClick={() => setCategory('ozdoby')}>
+          <img className="w-full h-full  rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/candle.png" alt="" />
+        </div>
+        <div className="w-12 h-12 m-6" onClick={() => setCategory('zestawy prezentowe')}>
+          <img className="w-full h-full  rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/gift-box.png" alt="" />
+        </div>
+      </div>
+      <main className="flex w-full flex-col items-center " />
+
+      <div className="flex-1 max-w-[1530px] w-full mx-auto">
+        <div className=" flex justify-center align-center">
+          <div className=" min-w-[320px] text-[#000206] text-2xl font-semibold p-10">
+            Produkty
+            <ul className="text-[#000206] text-xl font-semibold">
+
+              <li><button onClick={() => setCategory('miody')} href="/cos" type="button" className="block py-1   text-[#000206] rounded  hover:scale-110" aria-current="page">Miody</button></li>
+
+              <li><button onClick={() => setCategory('miody smakowe')} href="/miody" type="button" className="block py-1   text-[#000206] rounded  hover:scale-110" aria-current="page">Miody smakowe</button></li>
+
+              <li><button onClick={() => setCategory('miody pitne')} href="/miody" type="button" className="block py-1   text-[#000206] rounded  hover:scale-110" aria-current="page">Miody pitne</button></li>
+
+              <li><button onClick={() => setCategory('apiterapia')} href="/miody" type="button" className="block py-1   text-[#000206] rounded  hover:scale-110" aria-current="page">Apiterapia</button></li>
+
+              <li><button onClick={() => setCategory('ozdoby')} href="/miody" type="button" className="block py-1   text-[#000206] rounded  hover:scale-110" aria-current="page">Ozdoby</button></li>
+
+              <li><button onClick={() => setCategory('zestawy prezentowe')} href="/miody" type="button" className="block py-1   text-[#000206] rounded  hover:scale-110" aria-current="page">Zestawy prezentowe</button></li>
+            </ul>
+          </div>
+          <div className="min-w-[1250px] flex flex-col justify center align-center">
+            <div className="ml-10  text-lg font-medium ">
+              Strona główna /
+              {' '}
+              {category}
+            </div>
+
+            {category && category === 'miody' ? (
+              <div className="flex flex-row flex-wrap">
+                <ImageBox foreground="Gryczany_11_11zon" background="work_in_progress" product="Gryczany" />
+                <ImageBox foreground="Miód_akacjowy_18" background="work_in_progress" product="Akacja" />
+              </div>
+            ) : ''}
+
+            {category && category === 'miody smakowe' ? (
+              <div className="flex flex-row flex-wrap">
+                <ImageBox foreground="Miód_z_rokitnikiem_4" background="work_in_progress" product="Rokitnik" />
+                <ImageBox foreground="Miód_z_rokitnikiem_4" background="work_in_progress" product="Rokitnik" />
+                <ImageBox foreground="Miód_z_rokitnikiem_4" background="work_in_progress" product="Rokitnik" />
+                <ImageBox foreground="Miód_z_rokitnikiem_4" background="work_in_progress" product="Rokitnik" />
+              </div>
+            ) : ''}
+
+            {category && category === 'miody pitne' ? (
+              <div className="flex flex-row flex-wrap">
+                <ImageBox foreground="Miód_z_rokitnikiem_4" background="work_in_progress" product="Rokitnik" />
+                <ImageBox foreground="Miód_z_rokitnikiem_4" background="work_in_progress" product="Rokitnik" />
+                <ImageBox foreground="Miód_z_rokitnikiem_4" background="work_in_progress" product="Rokitnik" />
+              </div>
+            ) : ''}
+
+            {category && category === 'apiterapia' ? (
+              <div className="flex flex-row flex-wrap">
+                <ImageBox foreground="Miód_z_rokitnikiem_4" background="work_in_progress" product="Rokitnik" />
+                <ImageBox foreground="Miód_z_rokitnikiem_4" background="work_in_progress" product="Rokitnik" />
+                <ImageBox foreground="Miód_z_rokitnikiem_4" background="work_in_progress" product="Rokitnik" />
+              </div>
+            ) : ''}
+
+            {category && category === 'ozdoby' ? (
+              <div className="flex flex-row flex-wrap">
+                <ImageBox foreground="Miód_z_rokitnikiem_4" background="work_in_progress" product="Rokitnik" />
+                <ImageBox foreground="Miód_z_rokitnikiem_4" background="work_in_progress" product="Rokitnik" />
+                <ImageBox foreground="Miód_z_rokitnikiem_4" background="work_in_progress" product="Rokitnik" />
+              </div>
+            ) : ''}
+
+            {category && category === 'zestawy prezentowe' ? (
+              <div className="flex flex-row flex-wrap">
+                <ImageBox foreground="Miód_z_rokitnikiem_4" background="work_in_progress" product="Rokitnik" />
+                <ImageBox foreground="Miód_z_rokitnikiem_4" background="work_in_progress" product="Rokitnik" />
+                <ImageBox foreground="Miód_z_rokitnikiem_4" background="work_in_progress" product="Rokitnik" />
+              </div>
+            ) : ''}
+          </div>
+        </div>
+      </div>
+      <div className="flex justify-center">Nasze bestsellery</div>
       <div className="flex justify-center items-center">
         <IconContext.Provider value={icon1}>
           <IoIosArrowBack onClick={() => showPreviousImage()} />
@@ -74,82 +173,6 @@ export default function Home() {
         <IconContext.Provider value={icon2}>
           <IoIosArrowForward onClick={() => showNextImage()} />
         </IconContext.Provider>
-      </div>
-      <div className="flex justify-center items-center ">
-        <div className="w-12 h-12 m-6">
-          <img className="w-full h-full  rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/honey.png" alt="" />
-        </div>
-        <div className="w-12 h-12 m-6">
-          <img className="w-full h-full rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/jelly.png" alt="" />
-        </div>
-        <div className="w-12 h-12 m-6">
-          <img className="w-full h-full  rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/mead2.png" alt="" />
-        </div>
-        <div className="w-12 h-12 m-6">
-          <img className="w-full h-full  rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/candle.png" alt="" />
-        </div>
-        <div className="w-12 h-12 m-6">
-          <img className="w-full h-full  rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/gift-box.png" alt="" />
-        </div>
-      </div>
-      <main className="flex w-full flex-col items-center " />
-
-      <div className="max-w-[1530px] w-full mx-auto">
-        <div className=" flex justify-center align-center">
-          <div className=" max-w-[280px] text-[#000206] text-2xl font-semibold p-10">
-            Produkty
-            <ul className="text-[#000206] text-xl font-semibold">
-              <li><button onClick={() => setCategory('Strona główna / miody')} href="/miody" type="button" className="block py-1   text-[#000206] rounded  hover:scale-110" aria-current="page">Miody</button></li>
-              <li><button onClick={() => setCategory('Strona główna / miody pitne')} href="/miody" type="button" className="block py-1   text-[#000206] rounded  hover:scale-110" aria-current="page">Pitne</button></li>
-              <li><button onClick={() => setCategory('Strona główna / akcesoria')} href="/miody" type="button" className="block py-1   text-[#000206] rounded  hover:scale-110" aria-current="page">Akcesoria</button></li>
-            </ul>
-          </div>
-          <div className="max-w-[1340px]flex flex-col justify center align-center">
-            <div className="ml-10  text-lg font-medium ">{category}</div>
-
-            {category === 'Strona główna / miody' && category ? (
-              <div className="flex flex-row flex-wrap">
-                <ImageBox lampOn="LotosOff" lampOff="LotosOn" lampa="Pasek" />
-                <ImageBox lampOn="LotosOff" lampOff="LotosOn" lampa="Lotos" />
-                <ImageBox lampOn="LotosOff" lampOff="LotosOn" lampa="Klucz" />
-                <ImageBox lampOn="LotosOff" lampOff="LotosOn" lampa="Pasek" />
-                <ImageBox lampOn="LotosOff" lampOff="LotosOn" lampa="Lotos" />
-                <ImageBox lampOn="LotosOff" lampOff="LotosOn" lampa="Klucz" />
-                <ImageBox lampOn="LotosOff" lampOff="LotosOn" lampa="Pasek" />
-                <ImageBox lampOn="LotosOff" lampOff="LotosOn" lampa="Lotos" />
-                <ImageBox lampOn="LotosOff" lampOff="LotosOn" lampa="Klucz" />
-              </div>
-            ) : ''}
-
-            {category === 'Strona główna / miody pitne' && category ? (
-              <div className="flex flex-row flex-wrap">
-                <ImageBox lampOn="LotosOff" lampOff="LotosOn" lampa="Pasek" />
-                <ImageBox lampOn="LotosOff" lampOff="LotosOn" lampa="Lotos" />
-                <ImageBox lampOn="LotosOff" lampOff="LotosOn" lampa="Klucz" />
-                <ImageBox lampOn="LotosOff" lampOff="LotosOn" lampa="Pasek" />
-                <ImageBox lampOn="LotosOff" lampOff="LotosOn" lampa="Lotos" />
-                <ImageBox lampOn="LotosOff" lampOff="LotosOn" lampa="Klucz" />
-                <ImageBox lampOn="LotosOff" lampOff="LotosOn" lampa="Pasek" />
-                <ImageBox lampOn="LotosOff" lampOff="LotosOn" lampa="Lotos" />
-                <ImageBox lampOn="LotosOff" lampOff="LotosOn" lampa="Klucz" />
-              </div>
-            ) : ''}
-
-            {category === 'Strona główna / akcesoria' && category ? (
-              <div className="flex flex-row flex-wrap">
-                <ImageBox lampOn="PasekOff" lampOff="PasekOn" lampa="Pasek" />
-                <ImageBox lampOn="LotosOff" lampOff="LotosOn" lampa="Lotos" />
-                <ImageBox lampOn="LotosOff" lampOff="LotosOn" lampa="Klucz" />
-                <ImageBox lampOn="LotosOff" lampOff="LotosOn" lampa="Pasek" />
-                <ImageBox lampOn="LotosOff" lampOff="LotosOn" lampa="Lotos" />
-                <ImageBox lampOn="LotosOff" lampOff="LotosOn" lampa="Klucz" />
-                <ImageBox lampOn="LotosOff" lampOff="LotosOn" lampa="Pasek" />
-                <ImageBox lampOn="LotosOff" lampOff="LotosOn" lampa="Lotos" />
-                <ImageBox lampOn="LotosOff" lampOff="LotosOn" lampa="Klucz" />
-              </div>
-            ) : ''}
-          </div>
-        </div>
       </div>
       <Footer />
     </div>

@@ -21,10 +21,10 @@ function Lampa() {
         <div className=" flex flex-col min-h-screen  items-center">
           <button type="submit" onClick={show} className="cursor-pointer">
             <div className="w-[300px] h-[400px]  sm:w-[500px] sm:h-[600px] sm:mx-16">
-              {data && data.lampOffSrc ? (
+              {data && data.mainModalPhoto ? (
                 <Image
                   className="rounded shadow-2xl mt-20 "
-                  src={data.lampOffSrc}
+                  src={data.mainModalPhoto}
                   sizes="100vw"
                   style={{ width: '100%', height: '100%' }}
                   width={500}

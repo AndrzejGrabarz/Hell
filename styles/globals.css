@@ -139,7 +139,7 @@ body {
 }
 
 .icon {
-  font-size: 70px;
+  font-size: 40px;
   cursor: pointer;
 }
 
@@ -156,3 +156,6 @@ button[aria-pressed="true"] {
   /* background-color: #85b7ae; */
 }
 
+div.specials-meal-card img {
+  border-radius: 50%;
+}

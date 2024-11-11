@@ -1,52 +1,22 @@
 const weekSpecjals = [{
-  image: 'KluczOff.jpg',
-  alt: 'greek salad',
-  menuItem: 'Greek Salad',
-  mealPrize: '$12.15',
-  describtion: 'Lorem ipsum dolor sit amet,consectetur adipisicing elit.Culpa alias quae quod. Utdeleniti doloribus quos veniamnostrum reprehenderit non!',
-  delivery: 'Order a delivery $4',
+  image: '/Domino/Product webp/Miód_z_rokitnikiem_4.webp',
 },
 
 {
-  image: 'KluczOn.jpg',
-  alt: 'bruchetta',
-  menuItem: 'Bruchetta',
-  mealPrize: '$12.15',
-  describtion: 'Lorem ipsum dolor sit amet,consectetur adipisicing elit.Culpa alias quae quod. Utdeleniti doloribus quos veniamnostrum reprehenderit non!',
-  delivery: 'Order a delivery $4',
+  image: '/Domino/Product webp/Miód_z_pigwowcem_3.webp',
 },
 
 {
-  image: 'LotosOff.jpg',
-  alt: 'lemon desser',
-  menuItem: 'Lemon Desser',
-  mealPrize: '$12.15',
-  describtion: 'Lorem ipsum dolor sit amet,consectetur adipisicing elit.Culpa alias quae quod. Utdeleniti doloribus quos veniamnostrum reprehenderit non!',
-  delivery: 'Order a delivery $4',
+  image: '/Domino/Product webp/Miód_z_truskawką_5.webp',
 },
 {
-  image: 'LotosOn.jpg',
-  alt: 'lemon desser',
-  menuItem: 'Lemon Desser',
-  mealPrize: '$12.15',
-  describtion: 'Lorem ipsum dolor sit amet,consectetur adipisicing elit.Culpa alias quae quod. Utdeleniti doloribus quos veniamnostrum reprehenderit non!',
-  delivery: 'Order a delivery $4',
+  image: '/Domino/Product webp/Miód_z_rokitnikiem_4.webp',
 },
 {
-  image: 'KluczOff.jpg',
-  alt: 'lemon desser',
-  menuItem: 'Lemon Desser',
-  mealPrize: '$12.15',
-  describtion: 'Lorem ipsum dolor sit amet,consectetur adipisicing elit.Culpa alias quae quod. Utdeleniti doloribus quos veniamnostrum reprehenderit non!',
-  delivery: 'Order a delivery $4',
+  image: '/Domino/Product webp/Miód_z_pigwowcem_3.webp',
 },
 {
-  image: 'KluczOff.jpg',
-  alt: 'lemon desser',
-  menuItem: 'Lemon Desser',
-  mealPrize: '$12.15',
-  describtion: 'Lorem ipsum dolor sit amet,consectetur adipisicing elit.Culpa alias quae quod. Utdeleniti doloribus quos veniamnostrum reprehenderit non!',
-  delivery: 'Order a delivery $4',
+  image: '/Domino/Product webp/Miód_z_truskawką_5.webp',
 },
 ];
 

@@ -50,7 +50,7 @@ export default function Contact() {
         </label>
         <div ref={divCol} className="flex flex-row justify-center items-center ">
           <button className="text-blue-500 text-lg sm:text-xl hover:text-blue-700 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline " type="submit">
-            Wiadomość
+            Wyślij Wiadomość
           </button>
           <div ref={buttonref} className="loader show" />
           <XMarkIcon ref={xmarkRef} className="h-6 w-6 text-red-500 show" />
