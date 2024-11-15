@@ -130,7 +130,7 @@ body {
   border-top: 3px solid #3498db;
   width: 15px;
   height: 15px;
-  -webkit-animation: spin 2s linear infinite; /* Safari */
+  -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
 }
 
@@ -139,7 +139,7 @@ body {
 }
 
 .icon {
-  font-size: 70px;
+  font-size: 40px;
   cursor: pointer;
 }
 
@@ -156,3 +156,6 @@ button[aria-pressed="true"] {
   /* background-color: #85b7ae; */
 }
 
+div.specials-meal-card img {
+  border-radius: 20%;
+}

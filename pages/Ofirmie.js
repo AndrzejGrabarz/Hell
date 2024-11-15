@@ -13,7 +13,7 @@ export default function Ofirmie() {
 
             <h1 className="text-3xl font-bold my-10">Kim jesteśmy?</h1>
             <div className="text-xl text-center font-medium">
-              Nasza firma to połączenie pasji i natury, a za jej sukcesem stoi Dominik Dominikowski, który od pięciu lat prowadzi rodzinną pasiekę w sercu Zielonej Góry. Jego miłość do pszczelarstwa zrodziła się z chęci dostarczania ludziom naturalnych, zdrowych produktów. Dzięki jego zaangażowaniu i doświadczeniu, nasza oferta obejmuje miody klasyczne, smakowe, pitne oraz wyroby z wosku pszczelego. Naszym celem jest przybliżenie Wam smaku natury w najczystszej formie, zawsze z poszanowaniem dla pszczół i środowiska
+            Nasza firma to efekt rodzinnej pasji i zaangażowania, które pozwoliły nam zbudować wyjątkową pasiekę w sercu Zielonej Góry. To wspólna praca Dominika Dominikowskiego, jego żony Aleksandry, której wsparcie i pomysły są nieocenione, oraz rodziców, którzy przekazali swoją wiedzę i doświadczenie. Dzięki naszej współpracy tworzymy produkty najwyższej jakości: miody klasyczne, smakowe, pitne, a także wyroby z wosku pszczelego. Wszystko to z myślą o dostarczaniu Wam naturalnych i zdrowych produktów, zawsze w zgodzie z naturą i poszanowaniem dla pszczół.
             </div>
 
           </div>
