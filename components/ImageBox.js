@@ -18,15 +18,13 @@ function ImageBox({ foreground, background, product }) {
   };
 
   return (
-    <div
-      className="flex flex-col sm:py-8 cursor-pointer  sm:my-4 m-10"
-    >
+    <div className="flex flex-col sm:py-8  sm:my-4 m-10">
       <Link href={{
         pathname: `/lampy/${product}`,
         query: { data: (JSON.stringify(selectedProduct)) },
       }}
       >
-        <div className="w-[200px] h-[300px]  sm:w-[400px] sm:h-[500px] md:w-[500px] md:h-[600px] lg:w-[550px] lg:h-[650px] xl:w-[300px] xl:h-[300px]">
+        <div className="w-[200px] h-[300px]  sm:w-[400px] sm:h-[500px] md:w-[500px] md:h-[600px] lg:w-[550px] lg:h-[650px] xl:w-[300px] xl:h-[300px] cursor-pointer">
           <Image
             className="rounded shadow-2xl"
             src={`/Domino/Product webp/${isLampOn ? background : foreground}.webp`}
@@ -36,8 +34,8 @@ function ImageBox({ foreground, background, product }) {
             width={500}
             height={300}
             priority
-            onMouseOver={() => setIsLampOn(true)}
-            onMouseOut={() => setIsLampOn(false)}
+            // onMouseOver={() => setIsLampOn(true)}
+            // onMouseOut={() => setIsLampOn(false)}
           />
         </div>
       </Link>
@@ -49,6 +47,7 @@ function ImageBox({ foreground, background, product }) {
         </div>
         <p className="text-lg pt-4">{isPressed ? '100,00 zł' : '50,00 zł' }</p>
       </div>
+      
     </div>
   );
 }

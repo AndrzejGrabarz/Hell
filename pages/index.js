@@ -62,8 +62,8 @@ export default function Home() {
       <div className="flex-1 max-w-[1530px] w-full mx-auto">
         <div className=" flex justify-center align-center">
           <div className=" min-w-[320px] text-[#000206] text-2xl font-semibold p-10">
-            Produkty
-            <ul className="text-[#000206] text-xl font-semibold">
+            <p className="mb-8">Produkty</p>
+            <ul className="text-[#000206] text-lg font-normal">
 
               <li><button onClick={() => setCategory('miody')} href="/cos" type="button" className="block py-1   text-[#000206] rounded  hover:scale-110" aria-current="page">Miody</button></li>
 
@@ -95,9 +95,17 @@ export default function Home() {
             {category && category === 'miody smakowe' ? (
               <div className="flex flex-row flex-wrap">
                 <ImageBox foreground="Miód_z_rokitnikiem_4" background="work_in_progress" product="Rokitnik" />
-                <ImageBox foreground="Miód_z_rokitnikiem_4" background="work_in_progress" product="Rokitnik" />
-                <ImageBox foreground="Miód_z_rokitnikiem_4" background="work_in_progress" product="Rokitnik" />
-                <ImageBox foreground="Miód_z_rokitnikiem_4" background="work_in_progress" product="Rokitnik" />
+
+                <ImageBox foreground="Miód_z_truskawką_5" background="work_in_progress" product="Truskawa" />
+
+                <ImageBox foreground="Miód_bez_19" background="work_in_progress" product="Bez" />
+
+                <ImageBox foreground="Miód_czarna_malina_1" background="work_in_progress" product="Czarna Malina" />
+
+                <ImageBox foreground="Miód_z_pigwowcem_3" background="work_in_progress" product="Pigwa" />
+
+                <ImageBox foreground="Miód_z_żurawiną_6" background="work_in_progress" product="Żurawina" />
+
               </div>
             ) : ''}
 
@@ -111,9 +119,7 @@ export default function Home() {
 
             {category && category === 'apiterapia' ? (
               <div className="flex flex-row flex-wrap">
-                <ImageBox foreground="Miód_z_rokitnikiem_4" background="work_in_progress" product="Rokitnik" />
-                <ImageBox foreground="Miód_z_rokitnikiem_4" background="work_in_progress" product="Rokitnik" />
-                <ImageBox foreground="Miód_z_rokitnikiem_4" background="work_in_progress" product="Rokitnik" />
+                <ImageBox foreground="maść_13" background="maść-piramida_14" product="maść" />
               </div>
             ) : ''}
 
@@ -135,39 +141,45 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center">Nasze bestsellery</div>
+      <div className="flex flex-col sm:flex-row sm:justify-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-3xl text-center w-full font-test italic mt-10">Może cie zainteresują</div>
       <div className="flex justify-center items-center">
         <IconContext.Provider value={icon1}>
           <IoIosArrowBack onClick={() => showPreviousImage()} />
         </IconContext.Provider>
         {weekSpecjals[imageIndexFirst] && (
-        <div className="specials-meal-card p-10">
+        <div className="flex flex-col justify-center items-center specials-meal-card p-10 text-wrap">
           <figure>
             <img
+              className="cursor-pointer hover:scale-110"
               src={weekSpecjals[imageIndexFirst].image}
               alt={weekSpecjals[imageIndexFirst].alt}
             />
           </figure>
+          <div className="mt-2">{weekSpecjals[imageIndexFirst].name}</div>
         </div>
         )}
         {weekSpecjals[imageIndexMiddle] && (
-        <div className="specials-meal-card p-10">
+        <div className="flex flex-col justify-center items-center specials-meal-card p-10 text-wrap">
           <figure>
             <img
+              className="cursor-pointer hover:scale-110"
               src={weekSpecjals[imageIndexMiddle].image}
               alt={weekSpecjals[imageIndexMiddle].alt}
             />
           </figure>
+          <div className="mt-2">{weekSpecjals[imageIndexMiddle].name}</div>
         </div>
         )}
         {weekSpecjals[imageIndexEnd] && (
-        <div className="specials-meal-card p-10">
+        <div className="flex flex-col justify-center items-center specials-meal-card p-10 text-wrap">
           <figure>
             <img
+              className="cursor-pointer hover:scale-110"
               src={weekSpecjals[imageIndexEnd].image}
               alt={weekSpecjals[imageIndexEnd].alt}
             />
           </figure>
+          <div className="mt-2">{weekSpecjals[imageIndexEnd].name}</div>
         </div>
         )}
         <IconContext.Provider value={icon2}>

@@ -12,15 +12,15 @@ export default function Kontakt() {
           <div className="text-2xl sm:text-3xl 4xl:text-4xl mb-8 font-RedHatItalic font-medium text-center">Dane Kontaktowe</div>
           <div className="text-xl 4xl:text-3xl mb-4  font-RedHatItalic font-light">
             Email:
-            <span className="text-lg 4xl:text-2xl sm:text-xl font-RedHatItalic font-light"> BielIBlask@gmail.com</span>
+            <span className="text-lg 4xl:text-2xl sm:text-xl font-RedHatItalic font-light"> PasiekaDominikowski@gmail.com</span>
           </div>
           <div className="text-lg 4xl:text-3xl sm:text-xl mb-8 font-RedHatItalic font-light">
             Email:
-            <span className="text-lg 4xl:text-2xl sm:text-xl font-RedHatItalic font-light"> Prywatny@gmail.com</span>
+            <span className="text-lg 4xl:text-2xl sm:text-xl font-RedHatItalic font-light"> Dominik@gmail.com</span>
           </div>
           <div className="text-lg 4xl:text-3xl sm:text-xl mb-8 font-RedHatItalic font-light">
             Telefon:
-            <span className="text-lg 4xl:text-2xl  sm:text-xl font-RedHatItalic font-light">  +48 123 123 123</span>
+            <span className="text-lg 4xl:text-2xl  sm:text-xl font-RedHatItalic font-light">  +48 546 867 534</span>
           </div>
           <div className="text-lg 4xl:text-2xl sm:text-xl font-RedHatItalic font-light text-center">
             Szukasz czegoś wyjątkowego? Masz pytania, które cie nurtują? Nie bój się napisać do nas jesteśmy mili ludzie 😉 Pomożemy, doradzimy. Odpowiedź otrzymasz odrazu albo w ciągu 2 nastepnych dni w razie czego zawsze może dzwonić od 8:00 do 15:00. Miód sam się nie zbierze.
