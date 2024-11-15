@@ -12,7 +12,7 @@ function Navbar() {
           <Link href="/Ofirmie" className="block py-2 px-8  rounded hover:scale-110 ">Pasieka</Link>
         </li>
         <li>
-          <Link href="/Galeria" className="block py-2 px-8  rounded hover:scale-110 ">Jak to wygląd</Link>
+          <Link href="/Galeria" className="block py-2 px-8  rounded hover:scale-110 ">Jak powstają nasze produkty</Link>
         </li>
         <li>
           <Link href="/Kontakt" className="block py-2 px-8  rounded hover:scale-110 ">Kontakt</Link>

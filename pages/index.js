@@ -45,16 +45,16 @@ export default function Home() {
           <img className="w-full h-full rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/jelly.png" alt="" />
         </div>
         <div className="w-12 h-12 m-6" onClick={() => setCategory('miody pitne')}>
-          <img className="w-full h-full  rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/mead2.png" alt="" />
+          <img className="w-full h-full  rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/mead1.png" alt="" />
         </div>
         <div className="w-12 h-12 m-6" onClick={() => setCategory('apiterapia')}>
-          <img className="w-full h-full  rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/medicine.png" alt="" />
+          <img className="w-full h-full  rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/cosmetics.png" alt="" />
         </div>
         <div className="w-12 h-12 m-6" onClick={() => setCategory('ozdoby')}>
-          <img className="w-full h-full  rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/candle.png" alt="" />
+          <img className="w-full h-full  rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/beeswax-candle.png" alt="" />
         </div>
         <div className="w-12 h-12 m-6" onClick={() => setCategory('zestawy prezentowe')}>
-          <img className="w-full h-full  rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/gift-box.png" alt="" />
+          <img className="w-full h-full  rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/gift-box2.png" alt="" />
         </div>
       </div>
       <main className="flex w-full flex-col items-center " />
@@ -125,17 +125,18 @@ export default function Home() {
 
             {category && category === 'ozdoby' ? (
               <div className="flex flex-row flex-wrap">
-                <ImageBox foreground="Miód_z_rokitnikiem_4" background="work_in_progress" product="Rokitnik" />
-                <ImageBox foreground="Miód_z_rokitnikiem_4" background="work_in_progress" product="Rokitnik" />
-                <ImageBox foreground="Miód_z_rokitnikiem_4" background="work_in_progress" product="Rokitnik" />
+                <ImageBox foreground="Miki_11" background="work_in_progress" product="Miki" />
+                <ImageBox foreground="Jeleń_12" background="work_in_progress" product="Jeleń" />
+                <ImageBox foreground="Miki_z_ziomem_i_choinka_17_11zon" background="work_in_progress" product="Drzewo" />
+                <ImageBox foreground="Miki_z_zimalem_16_11zon" background="work_in_progress" product="Ziomy" />
               </div>
             ) : ''}
 
             {category && category === 'zestawy prezentowe' ? (
               <div className="flex flex-row flex-wrap">
-                <ImageBox foreground="Miód_z_rokitnikiem_4" background="work_in_progress" product="Rokitnik" />
-                <ImageBox foreground="Miód_z_rokitnikiem_4" background="work_in_progress" product="Rokitnik" />
-                <ImageBox foreground="Miód_z_rokitnikiem_4" background="work_in_progress" product="Rokitnik" />
+                <ImageBox foreground="prezenty-3_10_11zon" background="work_in_progress" product="Pakiet1" />
+                <ImageBox foreground="prezenty-2_9_11zon" background="work_in_progress" product="Pakiet2" />
+                <ImageBox foreground="prezenty-1_8_11zon" background="work_in_progress" product="Pakiet3" />
               </div>
             ) : ''}
           </div>

@@ -157,6 +157,48 @@ const Miody = [
     morePhotos: ['/Domino/Product webp/maść_13.webp', '/Domino/Product webp/maść-piramida_14'],
     honey_name: 'Maść z propolisem',
   },
+  {
+    name: 'Miki',
+    mainModalPhoto: '/Domino/Product webp/Miki_11.webp',
+    morePhotos: ['/Domino/Product webp/Miki_11.webp', '/Domino/Product webp/maść-piramida_14'],
+    honey_name: 'Mikołaj',
+  },
+  {
+    name: 'Jeleń',
+    mainModalPhoto: '/Domino/Product webp/Jeleń_12.webp',
+    morePhotos: ['/Domino/Product webp/Jeleń_12.webp', '/Domino/Product webp/maść-piramida_14'],
+    honey_name: 'Rudolf',
+  },
+  {
+    name: 'Drzewo',
+    mainModalPhoto: '/Domino/Product webp/Miki_z_ziomem_i_choinka_17_11zon.webp',
+    morePhotos: ['/Domino/Product webp/Miki_z_ziomem_i_choinka_17_11zon.webp', '/Domino/Product webp/maść-piramida_14'],
+    honey_name: 'Święta',
+  },
+  {
+    name: 'Ziomy',
+    mainModalPhoto: '/Domino/Product webp/Miki_z_zimalem_16_11zon.webp',
+    morePhotos: ['/Domino/Product webp/Miki_z_zimalem_16_11zon', '/Domino/Product webp/maść-piramida_14'],
+    honey_name: 'Drużyna',
+  },
+  {
+    name: 'Pakiet1',
+    mainModalPhoto: '/Domino/Product webp/prezenty-3_10_11zon.webp',
+    morePhotos: ['/Domino/Product webp/prezenty-3_10_11zon', '/Domino/Product webp/maść-piramida_14'],
+    honey_name: 'Pakiet 1',
+  },
+  {
+    name: 'Pakiet2',
+    mainModalPhoto: '/Domino/Product webp/prezenty-2_9_11zon.webp',
+    morePhotos: ['/Domino/Product webp/prezenty-2_9_11zon', '/Domino/Product webp/maść-piramida_14'],
+    honey_name: 'Pakiet 2',
+  },
+  {
+    name: 'Pakiet3',
+    mainModalPhoto: '/Domino/Product webp/prezenty-1_8_11zon.webp',
+    morePhotos: ['/Domino/Product webp/prezenty-1_8_11zon', '/Domino/Product webp/maść-piramida_14'],
+    honey_name: 'Pakiet 3',
+  },
 ];
 
 export default Miody;

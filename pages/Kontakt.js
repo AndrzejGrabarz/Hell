@@ -47,13 +47,36 @@ export default function Kontakt() {
         <div className="mb-16">
           <div className="text-xl sm:text-2xl 4xl:text-3xl underline underline-offset-8 py-4 font-RedHatItalic italic" id="Pytanie">Czy oferujecie wysyłkę miodów na terenie kraju i za granicę?</div>
           <div id="Odpowiedź" className="font-RedHatItalic font-light text-[16px] sm:text-md 4xl:text-xl">Tak, wysyłamy nasze miody zarówno na terenie Polski, jak i za granicę. W przypadku zamówień międzynarodowych, czas dostawy zależy od wybranego kraju.</div>
-
         </div>
 
         <div className="mb-16">
           <div className="text-xl sm:text-2xl 4xl:text-3xl underline underline-offset-8 py-4 font-RedHatItalic italic" id="Pytanie">Czy mogę zwrócić miód, jeśli nie spełni moich oczekiwań?</div>
           <div id="Odpowiedź" className="font-RedHatItalic font-light text-[16px] sm:text-md 4xl:text-xl">Ze względu na charakter produktu spożywczego, zwroty nie są możliwe. Jeśli jednak produkt jest uszkodzony lub nie spełnia oczekiwań, prosimy o kontakt, a postaramy się rozwiązać problem.</div>
+        </div>
 
+        <div className="mb-16">
+          <div className="text-xl sm:text-2xl 4xl:text-3xl underline underline-offset-8 py-4 font-RedHatItalic italic" id="Pytanie">Czy miody smakowe zawierają sztuczne dodatki?</div>
+          <div id="Odpowiedź" className="font-RedHatItalic font-light text-[16px] sm:text-md 4xl:text-xl">Nie, nasze miody smakowe są przygotowywane wyłącznie z naturalnych składników, takich jak liofilizowane owoce i naturalny miód pszczeli. Nie dodajemy żadnych sztucznych barwników, aromatów ani konserwantów.</div>
+        </div>
+
+        <div className="mb-16">
+          <div className="text-xl sm:text-2xl 4xl:text-3xl underline underline-offset-8 py-4 font-RedHatItalic italic" id="Pytanie">Czy mogę zwrócić miód, jeśli nie spełni moich oczekiwań?</div>
+          <div id="Odpowiedź" className="font-RedHatItalic font-light text-[16px] sm:text-md 4xl:text-xl">Ze względu na charakter produktu spożywczego, zwroty nie są możliwe. Jeśli jednak produkt jest uszkodzony lub nie spełnia oczekiwań, prosimy o kontakt, a postaramy się rozwiązać problem.</div>
+        </div>
+
+        <div className="mb-16">
+          <div className="text-xl sm:text-2xl 4xl:text-3xl underline underline-offset-8 py-4 font-RedHatItalic italic" id="Pytanie">Czy mogę zamówić większe ilości miodu na prezent lub do firmy?</div>
+          <div id="Odpowiedź" className="font-RedHatItalic font-light text-[16px] sm:text-md 4xl:text-xl">Tak, oferujemy możliwość zamówienia większych ilości miodu oraz przygotowania zestawów prezentowych.</div>
+        </div>
+
+        <div className="mb-16">
+          <div className="text-xl sm:text-2xl 4xl:text-3xl underline underline-offset-8 py-4 font-RedHatItalic italic" id="Pytanie">Czy miody są dostępne w różnych pojemnościach?</div>
+          <div id="Odpowiedź" className="font-RedHatItalic font-light text-[16px] sm:text-md 4xl:text-xl">Tak, oferujemy miody w różnych pojemnościach, takich jak 250g, 500g i 1kg. Dzięki temu każdy klient może wybrać ilość odpowiednią do swoich potrzeb.</div>
+        </div>
+
+        <div className="mb-16">
+          <div className="text-xl sm:text-2xl 4xl:text-3xl underline underline-offset-8 py-4 font-RedHatItalic italic" id="Pytanie">Czy oferujecie próbki miodów?</div>
+          <div id="Odpowiedź" className="font-RedHatItalic font-light text-[16px] sm:text-md 4xl:text-xl">Tak, oferujemy możliwość zamówienia próbek miodów w małych słoiczkach. To doskonała okazja, aby spróbować różnych smaków przed zakupem większych opakowań. W celu zamówienia próbek prosimy o kontakt.</div>
         </div>
 
       </div>
