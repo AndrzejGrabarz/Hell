@@ -91,6 +91,8 @@ export default function Home() {
                 <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center lg:justify-start">
                   <ImageBox foreground="Miód_Gryczany_2" background="work_in_progress" product="Gryczany" />
                   <ImageBox foreground="Miód_akacjowy_18" background="work_in_progress" product="Akacja" />
+                  <ImageBox foreground="Pieżga_7" background="work_in_progress" product="Pieżga" />
+                  <ImageBox foreground="Pieżga_7" background="work_in_progress" product="Pyłek" />
                 </div>
               ) : ''}
 
@@ -98,7 +100,7 @@ export default function Home() {
                 <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center lg:justify-start">
                   <ImageBox foreground="Miód_z_rokitnikiem_4" background="work_in_progress" product="Rokitnik" />
 
-                  <ImageBox foreground="Miód_z_truskawką_5" background="work_in_progress" product="Truskawa" />
+                  <ImageBox foreground="Miód_z_truskawką_5" background="work_in_progress" product="Truskawka" />
 
                   <ImageBox foreground="Miód_bez_19" background="work_in_progress" product="Bez" />
 
