@@ -109,9 +109,9 @@ export default function Contact() {
 
   return (
 
-    <div className="relative flex justify-center items-center">
-      {/* <div className="absolute bg-white w-[105%] h-[115%] rounded-lg shadow-lg z-1" /> */}
-      <form ref={form} onSubmit={sendEmail} className="flex flex-col bg-gradient-to-b from-[#d6dbdc] to-[#ffffff] shadow-md rounded p-8  h-full text-sm sm:text-md lg:text-xl xl:text-xl 2xl:text-xl 3xl:text-2xl 4xl:text-2xl z-0 " action="/send-data-here" method="post">
+    <div className="flex justify-center items-center">
+      
+      <form ref={form} onSubmit={sendEmail} className="flex flex-col bg-gradient-to-b from-[#d6dbdc] to-[#ffffff] shadow-md rounded p-8  h-full text-sm sm:text-md lg:text-xl xl:text-xl 2xl:text-xl 3xl:text-2xl 4xl:text-2xl" action="/send-data-here" method="post">
         <div className="mb-4 font-bold text-base">
           <div className="text-sm py-2">Podaj swoje imię</div>
           <label htmlFor="name">

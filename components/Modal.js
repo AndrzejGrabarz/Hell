@@ -34,6 +34,7 @@ function Modal({ data }) {
                 <Image
                   className="rounded "
                   src={data.morePhotos[imageSrc]}
+                  alt="grafika"
                   style={{ width: '100%', height: '100%' }}
                   width={150}
                   height={150}
@@ -48,7 +49,7 @@ function Modal({ data }) {
 
           {/* <!-- Next/previous controls --> */}
         </div>
-        <button id="myButton" className="text-black text-2xl sm:text-5xl 4xl:ml-40"  onClick={changeImageSrcToNext}>&#10095;</button>
+        <button id="myButton" className="text-black text-2xl sm:text-5xl 4xl:ml-40" onClick={changeImageSrcToNext}>&#10095;</button>
       </div>
     </div>
   );
