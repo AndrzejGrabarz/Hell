@@ -89,37 +89,37 @@ export default function Home() {
 
               {category && category === 'miody' ? (
                 <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center lg:justify-start">
-                  <ImageBox foreground="Miód_Gryczany_2" background="work_in_progress" product="Gryczany" />
-                  <ImageBox foreground="Miód_akacjowy_18" background="work_in_progress" product="Akacja" />
-                  <ImageBox foreground="Pieżga_7" background="work_in_progress" product="Pieżga" />
-                  <ImageBox foreground="Pieżga_7" background="work_in_progress" product="Pyłek" />
+                  <ImageBox foreground="Miód_Gryczany_2" background="placeholder" product="Gryczany" />
+                  <ImageBox foreground="Miód_akacjowy_18" background="placeholder" product="Akacja" />
+                  <ImageBox foreground="Pieżga_7" background="placeholder" product="Pierzga" />
+                  <ImageBox foreground="placeholder" background="placeholder" product="Pyłek" />
                 </div>
               ) : ''}
 
               {category && category === 'miody smakowe' ? (
                 <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center lg:justify-start">
-                  <ImageBox foreground="Miód_z_rokitnikiem_4" background="work_in_progress" product="Rokitnik" />
+                  <ImageBox foreground="Miód_z_rokitnikiem_4" background="placeholder" product="Rokitnik" />
 
-                  <ImageBox foreground="Miód_z_truskawką_5" background="work_in_progress" product="Truskawka" />
+                  <ImageBox foreground="Miód_z_truskawką_5" background="placeholder" product="Truskawka" />
 
-                  <ImageBox foreground="Miód_bez_19" background="work_in_progress" product="Bez" />
+                  <ImageBox foreground="Miód_bez_19" background="placeholder" product="Bez" />
 
-                  <ImageBox foreground="Miód_czarna_malina_1" background="work_in_progress" product="Czarna Malina" />
+                  <ImageBox foreground="Miód_czarna_malina_1" background="placeholder" product="Czarna Malina" />
 
-                  <ImageBox foreground="Miód_z_pigwowcem_3" background="work_in_progress" product="Pigwa" />
+                  <ImageBox foreground="Miód_z_pigwowcem_3" background="placeholder" product="Pigwa" />
 
-                  <ImageBox foreground="Miód_z_żurawiną_6" background="work_in_progress" product="Żurawina" />
+                  <ImageBox foreground="Miód_z_żurawiną_6" background="placeholder" product="Żurawina" />
 
-                  <ImageBox foreground="work_in_progress" background="work_in_progress" product="Imbir" />
+                  <ImageBox foreground="placeholder" background="placeholder" product="Imbir" />
 
-                  <ImageBox foreground="Miód_z_żurawiną_6" background="work_in_progress" product="Kawa" />
+                  <ImageBox foreground="Miód_z_żurawiną_6" background="placeholder" product="Kawa" />
 
                 </div>
               ) : ''}
 
               {category && category === 'miody pitne' ? (
                 <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center lg:justify-start">
-                  <ImageBox foreground="Wóda" background="work_in_progress" product="Miód pitny" />
+                  <ImageBox foreground="Wóda" background="placeholder" product="Miód pitny" />
                 </div>
               ) : ''}
 
@@ -132,17 +132,17 @@ export default function Home() {
 
               {category && category === 'ozdoby' ? (
                 <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center lg:justify-start">
-                  <ImageBox foreground="Miki_11" background="work_in_progress" product="Świeczka Mikołaj" />
-                  <ImageBox foreground="Jeleń_12" background="work_in_progress" product="Świeczka Rudolf" />
-                  <ImageBox foreground="Miki_z_zimalem_16_11zon" background="work_in_progress" product="Biegun południowy" />
-                  <ImageBox foreground="Miki_z_ziomem_i_choinka_17_11zon" background="work_in_progress" product="Zestaw świątecznych świeczek" />
+                  <ImageBox foreground="Miki_11" background="placeholder" product="Świeczka Mikołaj" />
+                  <ImageBox foreground="Jeleń_12" background="placeholder" product="Świeczka Rudolf" />
+                  <ImageBox foreground="Miki_z_zimalem_16_11zon" background="placeholder" product="Biegun południowy" />
+                  <ImageBox foreground="Miki_z_ziomem_i_choinka_17_11zon" background="placeholder" product="Zestaw świątecznych świeczek" />
                 </div>
               ) : ''}
 
               {category && category === 'zestawy prezentowe' ? (
                 <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center lg:justify-start">
-                  <ImageBox foreground="prezenty-3_10_11zon" background="work_in_progress" product="Zestaw prezentowy 1" />
-                  <ImageBox foreground="prezenty-2_9_11zon" background="work_in_progress" product="Zestaw prezentowy 2" />
+                  <ImageBox foreground="prezenty-3_10_11zon" background="placeholder" product="Zestaw prezentowy 1" />
+                  <ImageBox foreground="prezenty-2_9_11zon" background="placeholder" product="Zestaw prezentowy 2" />
                 </div>
               ) : ''}
             </div>

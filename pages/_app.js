@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import '@/styles/globals.css';
+import { GoogleTagManager } from '@next/third-parties/google'
 
 export default function App({ Component, pageProps }) {
   return (
@@ -27,8 +28,9 @@ export default function App({ Component, pageProps }) {
         <meta property="og:desciption" content="Naturalne miody, miody smakowe, miody pitne, maści i krople propolisowe, ozdoby z wosku pszczelego oraz pakiety prezentowe - wszystko z rodzinnej pasieki z własnych pszczół i roślin." />
         <meta property="og:locale" content="pl" />
         <meta property="og:site_name" content="Dominik Dominikowski Pasieka" />
-
+        
       </Head>
+      <GoogleTagManager gtmId="G-9LGPTWFQZF" />
       <Component {...pageProps} />
     </>
 
