@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import '@/styles/globals.css';
-import { GoogleTagManager } from '@next/third-parties/google'
+import { GoogleTagManager, GoogleAnalytics } from '@next/third-parties/google'
 
 export default function App({ Component, pageProps }) {
   return (
@@ -31,6 +31,7 @@ export default function App({ Component, pageProps }) {
         
       </Head>
       <GoogleTagManager gtmId="G-9LGPTWFQZF" />
+      <GoogleAnalytics gaId="G-9LGPTWFQZF" />
       <Component {...pageProps} />
     </>
 
