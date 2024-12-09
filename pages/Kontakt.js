@@ -13,11 +13,7 @@ export default function Kontakt() {
             <div className="text-2xl sm:text-3xl 4xl:text-4xl mb-8 font-RedHatItalic font-medium text-center">Dane Kontaktowe</div>
             <div className="text-xl 4xl:text-3xl mb-4  font-RedHatItalic font-light">
               Email:
-              <span className="text-lg 4xl:text-2xl sm:text-xl font-RedHatItalic font-light"> PasiekaDominikowski@gmail.com</span>
-            </div>
-            <div className="text-lg 4xl:text-3xl sm:text-xl mb-8 font-RedHatItalic font-light">
-              Email:
-              <span className="text-lg 4xl:text-2xl sm:text-xl font-RedHatItalic font-light"> Dominik@gmail.com</span>
+              <span className="text-lg 4xl:text-2xl sm:text-xl font-RedHatItalic font-light">  dominikdominikowski5@gmail.com</span>
             </div>
             <div className="text-lg 4xl:text-3xl sm:text-xl mb-8 font-RedHatItalic font-light">
               Telefon:
@@ -35,7 +31,7 @@ export default function Kontakt() {
 
           <div className="mb-16">
             <div className="text-xl sm:text-2xl 2xl:text-2xl underline underline-offset-8 py-4 font-RedHatItalic italic" id="Pytanie">Jakie rodzaje miodów są dostępne?</div>
-            <div id="Odpowiedź" className="font-RedHatItalic font-light text-[16px] md:text-[18px] xl:text-[20px] 2xl:text-2xl ">W naszej ofercie znajdziesz szeroki wybór miodów, w tym klasyczne miody pszczele, smakowe miody z dodatkami oraz miody pitne. Dodatkowo oferujemy wyroby z wosku pszczelego.</div>
+            <div id="Odpowiedź" className="font-RedHatItalic font-light text-[16px] md:text-[18px] xl:text-[20px] 2xl:text-2xl ">W naszej ofercie znajdziesz klasyczne miody pszczele, miody smakowe z naturalnymi dodatkami, miody pitne, produkty zdrowotne (krople z propolisu, maść, pyłek pszczeli, pierzga) oraz ręcznie wykonane ozdoby z wosku pszczelego. Każdy produkt jest dokładnie opisany na stronie, by ułatwić wybór idealnego rozwiązania dla Ciebie.</div>
 
           </div>
 
@@ -45,14 +41,10 @@ export default function Kontakt() {
 
           </div>
 
-          <div className="mb-16">
-            <div className="text-xl sm:text-2xl 4xl:text-3xl underline underline-offset-8 py-4 font-RedHatItalic italic" id="Pytanie">Czy oferujecie wysyłkę miodów na terenie kraju i za granicę?</div>
-            <div id="Odpowiedź" className="font-RedHatItalic font-light text-[16px] md:text-[18px] xl:text-[20px] 2xl:text-2xl">Tak, wysyłamy nasze miody zarówno na terenie Polski, jak i za granicę. W przypadku zamówień międzynarodowych, czas dostawy zależy od wybranego kraju.</div>
-          </div>
 
           <div className="mb-16">
             <div className="text-xl sm:text-2xl 4xl:text-3xl underline underline-offset-8 py-4 font-RedHatItalic italic" id="Pytanie">Czy miody smakowe zawierają sztuczne dodatki?</div>
-            <div id="Odpowiedź" className="font-RedHatItalic font-light text-[16px] md:text-[18px] xl:text-[20px] 2xl:text-2xl">Nie, nasze miody smakowe są przygotowywane wyłącznie z naturalnych składników, takich jak liofilizowane owoce i naturalny miód pszczeli. Nie dodajemy żadnych sztucznych barwników, aromatów ani konserwantów.</div>
+            <div id="Odpowiedź" className="font-RedHatItalic font-light text-[16px] md:text-[18px] xl:text-[20px] 2xl:text-2xl">Nie, nasze miody smakowe są w 100% naturalne. Są przygotowywane z najwyższej jakości naturalnego miodu pszczelego, do którego dodajemy wyłącznie liofilizowane owoce, przyprawy lub inne naturalne składniki. Proces liofilizacji pozwala zachować pełnię wartości odżywczych i naturalny smak owoców, a jednocześnie wyklucza potrzebę stosowania sztucznych konserwantów, barwników czy aromatów. Dzięki temu możesz cieszyć się zdrowym i naturalnym produktem o wyjątkowym smaku.</div>
           </div>
 
           <div className="mb-16">
@@ -62,7 +54,7 @@ export default function Kontakt() {
 
           <div className="mb-16">
             <div className="text-xl sm:text-2xl 4xl:text-3xl underline underline-offset-8 py-4 font-RedHatItalic italic" id="Pytanie">Czy mogę zamówić większe ilości miodu na prezent lub do firmy?</div>
-            <div id="Odpowiedź" className="font-RedHatItalic font-light text-[16px] md:text-[18px] xl:text-[20px] 2xl:text-2xl">Tak, oferujemy możliwość zamówienia większych ilości miodu oraz przygotowania zestawów prezentowych.</div>
+            <div id="Odpowiedź" className="font-RedHatItalic font-light text-[16px] md:text-[18px] xl:text-[20px] 2xl:text-2xl">Tak, oferujemy możliwość zamówienia większych ilości miodu oraz spersonalizowanych zestawów prezentowych. W przypadku większych zamówień lub zamówień firmowych prosimy o kontakt z odpowiednim wyprzedzeniem, abyśmy mogli zapewnić dostępność produktów i przygotować je zgodnie z Twoimi oczekiwaniami. Zapewniamy również eleganckie opakowania, idealne na każdą okazję.</div>
           </div>
 
           <div className="mb-16">

@@ -10,9 +10,9 @@ function Footer() {
             <Link href="https://www.facebook.com/profile.php?id=100016290109115" className="flex">
               <Image id="logo" src="/facebook.png" width={35} height={35} className="h-6 w-6 sm:h-8 sm:w-8 mr-3 mb-2" alt="facebook" />
             </Link>
-            <a href="#" className="flex">
+            <Link href="https://www.google.com/search?q=Dominik+Pasieka&sca_esv=64a609d90a359d40&hl=pl&authuser=0&sxsrf=ADLYWILHDtpQOheOw3mMI3Eb1jo3BcKkSw%3A1733688159683&ei=X_tVZ5-2KbDYwPAPh-KRiAY&ved=0ahUKEwjf4aLX-5iKAxUwLBAIHQdxBGEQ4dUDCA8&uact=5&oq=Dominik+Pasieka&gs_lp=Egxnd3Mtd2l6LXNlcnAiD0RvbWluaWsgUGFzaWVrYTIHEAAYsAMYHjILEAAYgAQYsAMYogQyCxAAGIAEGLADGKIEMgsQABiABBiwAxiiBDILEAAYgAQYsAMYogQyCxAAGIAEGLADGKIESLkFUGRYZHABeACQAQCYAUWgAUWqAQExuAEDyAEA-AEBmAICoAJJwgIJEAAYsAMYDRgemAMA4gMFEgExIECIBgGQBgaSBwEyoAelAw&sclient=gws-wiz-serp#vhid=/g/11y9m8fmj6&vssid=lcl" className="flex">
               <Image id="logo" src="/instagram.png" width={35} height={35} className="h-6 w-6 sm:h-8 sm:w-8 mr-3 " alt="instagram" />
-            </a>
+            </Link>
           </div>
           <ul className="flex flex-wrap items-center mb-4 text-sm font-medium  sm:mb-0">
             <li>
