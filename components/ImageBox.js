@@ -31,21 +31,22 @@ function ImageBox({ foreground, background, product }) {
           />
         </div>
 
-        <div className="flex flex-col break-normal h-[200px] w-full  bg-white rounded-b-lg justify-center items-center font-medium p-10 ">
+        <div className="flex flex-col break-normal h-[200px] w-full  bg-white rounded-b-lg justify-center items-center font-medium p-10  ">
           <p className=" text-center max-w-[200px]  text-xl mb-2 break-words">{selectedProduct.honey_name}</p>
           <div className="flex flex-row">
-            {selectedProduct.type === 'honey' || selectedProduct.type === 'alkohol' || selectedProduct.type === 'zestaw' ? <button onClick={handleClick} aria-pressed={isPressed} type="button" className="py-1 px-2">{selectedProduct.grammar_for_big}</button> : ''}
-
-            {selectedProduct.type === 'fruit' || selectedProduct.type === 'leki' || selectedProduct.type === 'ozdoby' ? <button onClick={handleClick} aria-pressed={isPressed} type="button" className="py-1 px-2">{selectedProduct.grammar_for_small}</button> : ''}
-
-            {selectedProduct.type === 'specjal' ? (
-              <>
+            <div className="flex-col">
+              {selectedProduct.type === 'honey' || selectedProduct.type === 'alkohol' || selectedProduct.type === 'zestaw' ? <button onClick={handleClick} aria-pressed={isPressed} type="button" className="py-1 px-2">{selectedProduct.grammar_for_big}</button> : ''}
+              {selectedProduct.type === 'fruit' || selectedProduct.type === 'leki' || selectedProduct.type === 'ozdoby' ? <button onClick={handleClick} aria-pressed={isPressed} type="button" className="py-1 px-2">{selectedProduct.grammar_for_small}</button> : ''}
+              <p className="text-lg pt-4 text-center">{selectedProduct.type === 'honey' || selectedProduct.type === 'alkohol' ? selectedProduct.prize_for_big : selectedProduct.prize_for_small }</p>
+            </div>
+            {selectedProduct.honey_name === 'Miód gryczany' ? (
+              <div className="flex-col ml-4">
                 <button onClick={handleClick} aria-pressed={isPressed} type="button" className="py-1 px-2">{selectedProduct.grammar_for_small}</button>
-                <button onClick={handleClick} aria-pressed={isPressed} type="button" className="py-1 px-2">{selectedProduct.grammar_for_big}</button>
-              </>
+                <p className="text-lg pt-4 text-center">{selectedProduct.prize_for_small }</p>
+              </div>
+
             ) : ''}
           </div>
-          <p className="text-lg pt-4">{selectedProduct.type === 'honey' || selectedProduct.type === 'alkohol' ? selectedProduct.prize_for_big : selectedProduct.prize_for_small }</p>
         </div>
       </Link>
     </div>

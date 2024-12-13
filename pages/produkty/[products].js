@@ -91,15 +91,29 @@ function Produkt() {
             </ul>
             {data.type === 'honey' || data.type === 'fruit' ? <div className="text-center my-4 font-RedHatItalic font-light italic text-2xl">Dostępne rozmiary</div> : ''}
             <div className="flex flex-row justify-center font-RedHatItalic font-light italic">
+
               {data && data.type === 'honey' || data.type === 'alkohol' ? (
-                <div className="flex flex-col items-center mx-10 text-lg">
-                  <div className="bg-gradient-to-r from-[#e05960] to-[#f78e8e] py-2 px-4 rounded-tl-lg rounded-br-lg font-medium w-[200px]">
-                    <div className="text-center">{`Waga Netto: ${data.grammar_for_big}`}</div>
-                    <div className="text-center">{`Cena: ${data.prize_for_big}`}</div>
+                <div className="flex flex-row">
+                  <div className="flex flex-col items-center mx-10 text-lg">
+                    <div className="bg-gradient-to-r from-[#e05960] to-[#f78e8e] py-2 px-4 rounded-tl-lg rounded-br-lg font-medium w-[200px]">
+                      <div className="text-center">{`Waga Netto: ${data.grammar_for_big}`}</div>
+                      <div className="text-center">{`Cena: ${data.prize_for_big}`}</div>
+                    </div>
+                    <div className="w-20 h-20 my-4">
+                      <img className="w-full h-full  rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/big jar.png" alt="" />
+                    </div>
                   </div>
-                  <div className="w-20 h-20 my-4">
-                    <img className="w-full h-full  rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/big jar.png" alt="" />
-                  </div>
+                  {data && data.honey_name === 'Miód gryczany' ? (
+                    <div className="flex flex-col items-center mx-10 text-lg">
+                      <div className="bg-gradient-to-r from-[#e05960] to-[#f78e8e] py-2 px-4 rounded-tl-lg rounded-br-lg font-medium w-[200px]">
+                        <div className="text-center">{`Waga Netto: ${data.grammar_for_small}`}</div>
+                        <div className="text-center">{`Cena: ${data.prize_for_small}`}</div>
+                      </div>
+                      <div className="flex w-full h-full items-end my-4 justify-center ">
+                        <img className="w-14 h-14  rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/small jar.png" alt="" />
+                      </div>
+                    </div>
+                  ) : ''}
                 </div>
               ) : ''}
 
