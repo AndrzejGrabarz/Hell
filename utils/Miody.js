@@ -172,8 +172,8 @@ const Miody = [
     type: 'honey',
     grammar_for_small: '420g',
     grammar_for_big: '420g',
-    prize_for_small: '35zł',
-    prize_for_big: '35zł',
+    prize_for_small: '40zł',
+    prize_for_big: '40zł',
     description: 'Miód z pyłkiem i pierzgą to unikalne połączenie naturalnego miodu, bogatego w smak i właściwości odżywcze, z pyłkiem pszczelim i pierzgą – składnikami o wysokiej zawartości witamin, minerałów i enzymów. Ten produkt to prawdziwa bomba zdrowotna, wspierająca odporność, zdrowie jelit i regenerację organizmu.',
     realization: 'Naturalny miód bazowy jest wzbogacany pyłkiem pszczelim oraz pierzgą, które są starannie łączone, aby zachować ich wartości odżywcze. Proces mieszania gwarantuje jednolitą konsystencję i harmonijny smak. Gotowy produkt jest pakowany w sposób, który zapewnia świeżość i najwyższą jakość.',
     properties: [
