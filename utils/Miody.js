@@ -427,7 +427,7 @@ const Miody = [
     prize_for_small: '40zł',
     prize_for_big: '60zł',
     description: 'Maść z żywokostem, propolisem i tłuszczem to naturalny produkt o właściwościach regenerujących, przeciwbólowych i przeciwzapalnych. Idealnie sprawdza się w pielęgnacji skóry suchej, podrażnionej oraz w łagodzeniu bólów mięśniowych i stawowych. Dzięki połączeniu żywokostu i propolisu, maść wspomaga procesy regeneracyjne i łagodzi stany zapalne.',
-    realization: 'Maść jest przygotowywana na bazie naturalnych składników: żywokostu, propolisu i tłuszczu. Składniki te są starannie łączone, aby zachować ich naturalne właściwości i zapewnić skuteczność działania. Gotowy produkt jest pakowany w poręczne słoiczki, które ułatwiają aplikację.',
+    realization: 'Maść powstaje z naturalnych składników: żywokostu, propolisu i tłuszczu, które są starannie łączone, by zachować pełnię swoich właściwości. Gotowy produkt trafia do specjalnie dobranych, praktycznych pojemników, które chronią naturalną formułę i zapewniają wygodne użytkowanie.',
     properties: [
 
       'Działa antybakteryjnie i przeciwzapalnie',
@@ -568,7 +568,7 @@ const Miody = [
     type: 'ozdoby',
     grammar_for_small: '3 figurki',
     grammar_for_big: '1000ml',
-    prize_for_small: '45zł',
+    prize_for_small: '60zł',
     prize_for_big: '60zł',
     description: 'Ozdoby świąteczne z wosku pszczelego to unikalne, ręcznie wykonane i malowane figurki, które doskonale oddają magię świąt. Wykonane z naturalnego wosku pszczelego, łączą tradycję z nowoczesnym designem. Ich subtelny, miodowy zapach dodaje przytulnej atmosfery każdemu wnętrzu. Każda figurka jest zapakowana w ozdobną torebkę, co czyni ją idealnym wyborem na prezent.',
     realization: 'Figurki są ręcznie odlewane z naturalnego wosku pszczelego, a następnie precyzyjnie malowane, aby nadać im świąteczny charakter. Każdy detal jest starannie dopracowany, co sprawia, że ozdoby są wyjątkowe. Małe figurki mogą być pakowane pojedynczo lub w zestawach, w zależności od preferencji klienta.',

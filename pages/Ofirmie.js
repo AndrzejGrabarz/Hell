@@ -122,7 +122,7 @@ export default function Ofirmie() {
               miejsce, gdzie natura i tradycja idą w parze. To tutaj, w otoczeniu
               malowniczych krajobrazów, nasze pszczoły mają dostęp do różnorodnych
               roślin, co wpływa na bogaty smak naszych produktów. Zachwyć się pięknem
-              naszej okolicy, z której czerpiemy to, co najlepszef asfsa
+              naszej okolicy, z której czerpiemy to, co najlepsze
             </div>
           </div>
           <div className="col-span-1 flex flex-col justify-center items-center text-center md:mr-4">

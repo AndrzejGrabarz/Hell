@@ -7,7 +7,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <title>Pasiek Dominik Dominikowski</title>
-        <meta name="title" content='Rodzinny Biznes Pasieczny - Naturalne Miody i Produkty Pszczele"' />
+        <meta name="title" content='Miody z rodzinnej pasieki - Naturalne Miody i Produkty Pszczele"' />
         <meta name="description" content="Naturalne miody, miody smakowe, miody pitne, maści i krople propolisowe, ozdoby z wosku pszczelego oraz pakiety prezentowe - wszystko z rodzinnej pasieki z własnych pszczół i roślin." />
         <meta name="author" content="Andrzej Grabarz" />
         <meta name="language" content="pl" />
@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width initial-scale=1.0" />
         <meta name="HandheldFriendly" content="true" />
 
-        <meta property="og:title" content="Rodzinny Biznes Pasieczny" />
+        <meta property="og:title" content="Miody z rodzinnej pasieki" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/Domino/miód-1.jpg" />
         <meta property="og:url" content="https://miodydominikpasieka.vercel.app/" />
