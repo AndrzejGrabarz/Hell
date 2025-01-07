@@ -92,6 +92,7 @@ export default function Home() {
                   <ImageBox foreground="Miód_Gryczany_2" background="placeholder" product="Gryczany" />
                   <ImageBox foreground="Miód_akacjowy_18" background="placeholder" product="Akacja" />
                   <ImageBox foreground="wrzos" background="placeholder" product="Wrzosowy" />
+                  <ImageBox foreground="rzepak" background="placeholder" product="Rzepakowy" />
                   <ImageBox foreground="Miód_p_p" background="placeholder" product="Pyłek i Pierzga" />
                   <ImageBox foreground="Pieżga_7" background="placeholder" product="Pierzga" />
                   <ImageBox foreground="pyłek" background="placeholder" product="Pyłek" />
