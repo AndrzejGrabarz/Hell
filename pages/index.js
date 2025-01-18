@@ -105,11 +105,11 @@ export default function Home() {
 
                   <ImageBox foreground="Miód_z_truskawką_5" background="placeholder" product="Truskawka" />
 
-                  <ImageBox foreground="Miód_bez_19" background="placeholder" product="Bez" />
+                  <ImageBox foreground="Miód_bez_19" background="placeholder" product="Czarny Bez" />
 
                   <ImageBox foreground="Miód_czarna_malina_1" background="placeholder" product="Czarna Malina" />
 
-                  <ImageBox foreground="Miód_z_pigwowcem_3" background="placeholder" product="Pigwa" />
+                  <ImageBox foreground="Miód_z_pigwowcem_3" background="placeholder" product="Pigwowiec" />
 
                   <ImageBox foreground="Miód_z_żurawiną_6" background="placeholder" product="Żurawina" />
 
