@@ -6,9 +6,9 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Pasiek Dominik Dominikowski</title>
+        <title>Pasieka Dominik Dominikowski</title>
         <meta name="title" content='Miody z rodzinnej pasieki - Naturalne Miody i Produkty Pszczele"' />
-        <meta name="description" content="Naturalne miody, miody smakowe, miody pitne, maści i krople propolisowe, ozdoby z wosku pszczelego oraz pakiety prezentowe - wszystko z rodzinnej pasieki z własnych pszczół i roślin." />
+        <meta name="description" content="Naturalne miody, miody smakowe, miody, maści i krople propolisowe, ozdoby z wosku pszczelego oraz pakiety prezentowe - wszystko z rodzinnej pasieki z własnych pszczół i roślin." />
         <meta name="author" content="Andrzej Grabarz" />
         <meta name="language" content="pl" />
         <meta name="robots" content="index, follow" />
@@ -25,7 +25,7 @@ export default function App({ Component, pageProps }) {
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/Domino/miód-1.jpg" />
         <meta property="og:url" content="https://miodydominikpasieka.vercel.app/" />
-        <meta property="og:desciption" content="Naturalne miody, miody smakowe, miody pitne, maści i krople propolisowe, ozdoby z wosku pszczelego oraz pakiety prezentowe - wszystko z rodzinnej pasieki z własnych pszczół i roślin." />
+        <meta property="og:desciption" content="Naturalne miody, miody smakowe, miody, maści i krople propolisowe, ozdoby z wosku pszczelego oraz pakiety prezentowe - wszystko z rodzinnej pasieki z własnych pszczół i roślin." />
         <meta property="og:locale" content="pl" />
         <meta property="og:site_name" content="Dominik Dominikowski Pasieka" />
         
