@@ -31,7 +31,7 @@ export default function Kontakt() {
 
           <div className="mb-16">
             <div className="text-xl sm:text-2xl 2xl:text-2xl underline underline-offset-8 py-4 font-RedHatItalic italic" id="Pytanie">Jakie rodzaje miodów są dostępne?</div>
-            <div id="Odpowiedź" className="font-RedHatItalic font-light text-[16px] md:text-[18px] xl:text-[20px] 2xl:text-2xl ">W naszej ofercie znajdziesz klasyczne miody pszczele, miody smakowe z naturalnymi dodatkami, miody pitne, produkty zdrowotne (krople z propolisu, maść, pyłek pszczeli, pierzga) oraz ręcznie wykonane ozdoby z wosku pszczelego. Każdy produkt jest dokładnie opisany na stronie, by ułatwić wybór idealnego rozwiązania dla Ciebie.</div>
+            <div id="Odpowiedź" className="font-RedHatItalic font-light text-[16px] md:text-[18px] xl:text-[20px] 2xl:text-2xl ">W naszej ofercie znajdziesz klasyczne miody pszczele, miody smakowe z naturalnymi dodatkami, produkty zdrowotne (krople z propolisu, maść, pyłek pszczeli, pierzga) oraz ręcznie wykonane ozdoby z wosku pszczelego. Każdy produkt jest dokładnie opisany na stronie, by ułatwić wybór idealnego rozwiązania dla Ciebie.</div>
 
           </div>
 

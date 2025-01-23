@@ -45,9 +45,9 @@ export default function Home() {
           <div className="w-8 h-8 m-2 md:w-12 md:h-12 md:m-6" onClick={() => setCategory('miody smakowe')}>
             <img className="w-full h-full rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/jelly.png" alt="" />
           </div>
-          <div className="w-8 h-8 m-2 md:w-12 md:h-12 md:m-6" onClick={() => setCategory('miody pitne')}>
+          {/* <div className="w-8 h-8 m-2 md:w-12 md:h-12 md:m-6" onClick={() => setCategory('miody pitne')}>
             <img className="w-full h-full  rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/mead1.png" alt="" />
-          </div>
+          </div> */}
           <div className="w-8 h-8 m-2 md:w-12 md:h-12 md:m-6" onClick={() => setCategory('apiterapia')}>
             <img className="w-full h-full  rounded-lg object-cover hover:scale-125 cursor-pointer" src="/Domino/Icons/cosmetics.png" alt="" />
           </div>
@@ -70,7 +70,7 @@ export default function Home() {
 
                 <li><button onClick={() => setCategory('miody smakowe')} href="/miody" type="button" className="block py-1   text-[#000206] rounded  hover:scale-110" aria-current="page">Miody smakowe</button></li>
 
-                <li><button onClick={() => setCategory('miody pitne')} href="/miody" type="button" className="block py-1   text-[#000206] rounded  hover:scale-110" aria-current="page">Miody pitne</button></li>
+                {/* <li><button onClick={() => setCategory('miody pitne')} href="/miody" type="button" className="block py-1   text-[#000206] rounded  hover:scale-110" aria-current="page">Miody pitne</button></li> */}
 
                 <li><button onClick={() => setCategory('apiterapia')} href="/miody" type="button" className="block py-1   text-[#000206] rounded  hover:scale-110" aria-current="page">Apiterapia</button></li>
 
@@ -120,11 +120,11 @@ export default function Home() {
                 </div>
               ) : ''}
 
-              {category && category === 'miody pitne' ? (
+              {/* {category && category === 'miody pitne' ? (
                 <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center lg:justify-start">
                   <ImageBox foreground="Wóda" background="placeholder" product="Miód pitny" />
                 </div>
-              ) : ''}
+              ) : ''} */}
 
               {category && category === 'apiterapia' ? (
                 <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center lg:justify-start">
