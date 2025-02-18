@@ -20,7 +20,7 @@ export default function Kontakt() {
               <span className="text-lg 4xl:text-2xl  sm:text-xl font-RedHatItalic font-light">  +48 507 067 260</span>
             </div>
             <div className="text-lg 4xl:text-2xl sm:text-xl font-RedHatItalic font-light text-center">
-              Szukasz czegoś wyjątkowego? Masz pytania, które cie nurtują? Nie bój się napisać do nas jesteśmy mili ludzie 😉 Pomożemy, doradzimy. Odpowiedź otrzymasz odrazu albo w ciągu 2 nastepnych dni w razie czego zawsze może dzwonić od 8:00 do 15:00. Miód sam się nie zbierze.
+              Szukasz czegoś wyjątkowego? Masz pytania, które cie nurtują? Nie bój się napisać do nas jesteśmy mili ludzie 😉 Pomożemy, doradzimy. Odpowiedź otrzymasz od razu albo w ciągu 2 następnych dni w razie czego zawsze możesz dzwonić od 8:00 do 15:00. Miód sam się nie zbierze.
             </div>
           </div>
         </div>
