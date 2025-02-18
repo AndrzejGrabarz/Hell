@@ -114,8 +114,12 @@ export default function Home() {
                   <ImageBox foreground="Miód_z_żurawiną_6" background="placeholder" product="Żurawina" />
 
                   <ImageBox foreground="Imb_pig" background="placeholder" product="Imbir" />
+                  
+                  <ImageBox foreground="Kawa" background="placeholder" product="Kawa" />
 
-                  <ImageBox foreground="kawa" background="placeholder" product="Kawa" />
+                  <ImageBox foreground="Cytryna" background="placeholder" product="Cytryna" />
+
+
 
                 </div>
               ) : ''}
@@ -139,13 +143,14 @@ export default function Home() {
                   <ImageBox foreground="Jeleń_12" background="placeholder" product="Świeczka Rudolf" />
                   <ImageBox foreground="Miki_z_zimalem_16_11zon" background="placeholder" product="Biegun południowy" />
                   <ImageBox foreground="Miki_z_ziomem_i_choinka_17_11zon" background="placeholder" product="Zestaw świątecznych świeczek" />
+                  <ImageBox foreground="świeca" background="placeholder" product="Świeczka" />
                 </div>
               ) : ''}
 
               {category && category === 'zestawy prezentowe' ? (
                 <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center lg:justify-start">
-                  <ImageBox foreground="prezenty-3_10_11zon" background="placeholder" product="Zestaw prezentowy 1" />
-                  <ImageBox foreground="prezenty-2_9_11zon" background="placeholder" product="Zestaw prezentowy 2" />
+                  {/* <ImageBox foreground="prezenty-2_9_11zon" background="placeholder" product="Zestaw prezentowy 1" /> */}
+                  <ImageBox foreground="domek_1" background="placeholder" product="Zestaw prezentowy 2" />
                 </div>
               ) : ''}
             </div>
