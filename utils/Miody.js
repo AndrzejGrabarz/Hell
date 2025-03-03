@@ -664,8 +664,8 @@ const Miody = [
 
   {
     name: 'Zestaw prezentowy 2',
-    mainModalPhoto: '/Domino/Product webp/domek_1.webp',
-    morePhotos: ['/Domino/Product webp/domki.webp', '/Domino/Product webp/domek-_2.webp', '/Domino/Product webp/Domek_3.webp'],
+    mainModalPhoto: '/Domino/Product webp/duży_zestaw.webp',
+    morePhotos: ['/Domino/Product webp/domki.webp', '/Domino/Product webp/domek-_2.webp', '/Domino/Product webp/Domek_3.webp', '/Domino/Product webp/duży_zestaw.webp', ],
     honey_name: 'Zestaw smakowych miodów',
     type: 'zestaw',
     grammar_for_small: 'Na zdjęciu widoczna jest wersja zestawu z 2 miodami o pojemności 250 g netto.',
@@ -677,9 +677,9 @@ const Miody = [
     properties: [''],
     properties_title: [
       'Dostepne zestawy:',
-      'Zestaw z dwoma słoikami (210 ml, masa netto 250 g) - cena 50 zł',
-      'Zestaw z trzema słoikami (210 ml, masa netto 250 g) - cena 80 zł',
-      // 'Zestaw największy z dwoma słoikiem (350 ml, masa netto 400 g) - cena 100 zł',
+      'Zestaw z dwoma słoikami (210 ml, masa netto 250 g w jednym słoiku) - cena 50 zł',
+      'Zestaw z trzema słoikami (210 ml, masa netto 250 g w jednym słoiku) - cena 80 zł',
+      'Zestaw największy z trzema słoikami (350 ml, masa netto 400 g w jednym słoiku) - cena 100 zł',
       'Dostępne smaki:',
       '* Miód z malinami',
       '* Miód rzepakowy kremowany',
