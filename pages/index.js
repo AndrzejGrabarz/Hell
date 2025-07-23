@@ -103,9 +103,9 @@ export default function Home() {
                 <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center lg:justify-start">
                   <ImageBox foreground="Miód_z_rokitnikiem_4" background="placeholder" product="Rokitnik" />
 
-                  <ImageBox foreground="Miód_z_truskawką_5" background="placeholder" product="Truskawka" />
+                  {/* <ImageBox foreground="Miód_z_truskawką_5" background="placeholder" product="Truskawka" /> */}
 
-                  <ImageBox foreground="Miód_bez_19" background="placeholder" product="Czarny Bez" />
+                  {/* <ImageBox foreground="Miód_bez_19" background="placeholder" product="Czarny Bez" /> */}
 
                   <ImageBox foreground="Miód_czarna_malina_1" background="placeholder" product="Czarna Malina" />
 
